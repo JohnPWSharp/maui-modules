@@ -3,15 +3,15 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Net.Http;
-using BookService.Models;
+using PartsService.Models;
 using Microsoft.AspNetCore.Http;
 using System.Text.Json;
 
-namespace BookService.Controllers
+namespace PartsService.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class BooksController : BaseController
+    public class PartsController : BaseController
     {
         [HttpGet]
         public ActionResult Get()
@@ -21,8 +21,8 @@ namespace BookService.Controllers
             {
                 return Unauthorized();
             }
-            Console.WriteLine("GET /api/books");
-            return new JsonResult(UserBooks);
+            Console.WriteLine("GET /api/parts");
+            return new JsonResult(UserParts);
         }
 
         [HttpGet("{isbn}")]
@@ -38,22 +38,22 @@ namespace BookService.Controllers
                 return this.BadRequest();
 
             isbn = isbn.ToUpperInvariant();
-            Console.WriteLine($"GET /api/books/{isbn}");
-            var userBooks = UserBooks;
-            var book = userBooks.SingleOrDefault(x => x.ISBN == isbn);
+            Console.WriteLine($"GET /api/parts/{isbn}");
+            var userParts = UserParts;
+            var part = userParts.SingleOrDefault(x => x.PartID == isbn);
 
-            if (book == null)
+            if (part == null)
             {
                 return this.NotFound();
             }
             else
             {
-                return this.Ok(book);
+                return this.Ok(part);
             }
         }
 
         [HttpPut("{isbn}")]
-        public HttpResponseMessage Put(string isbn, [FromBody] Book book)
+        public HttpResponseMessage Put(string isbn, [FromBody] Part part)
         {
             try
             {
@@ -68,23 +68,23 @@ namespace BookService.Controllers
                     return new HttpResponseMessage(HttpStatusCode.BadRequest);
                 }
 
-                if (string.IsNullOrEmpty(book.ISBN))
+                if (string.IsNullOrEmpty(part.PartID))
                 {
                     return new HttpResponseMessage(HttpStatusCode.BadRequest);
                 }
 
-                Console.WriteLine($"PUT /api/books/{isbn}");
-                Console.WriteLine(JsonSerializer.Serialize(book));
+                Console.WriteLine($"PUT /api/parts/{isbn}");
+                Console.WriteLine(JsonSerializer.Serialize(part));
 
 
-                var userBooks = UserBooks;
-                var existingBook = userBooks.SingleOrDefault(x => x.ISBN == isbn);
-                if (existingBook != null)
+                var userParts = UserParts;
+                var existingParts = userParts.SingleOrDefault(x => x.PartID == isbn);
+                if (existingParts != null)
                 {
-                    existingBook.Authors = book.Authors;
-                    existingBook.Genre = book.Genre;
-                    existingBook.PublishDate = book.PublishDate;
-                    existingBook.Title = book.Title;
+                    existingParts.Suppliers = part.Suppliers;
+                    existingParts.PartType = part.PartType;
+                    existingParts.PartAvailableDate = part.PartAvailableDate;
+                    existingParts.PartName = part.PartName;
                 }
 
                 return new HttpResponseMessage(HttpStatusCode.OK);
@@ -96,7 +96,7 @@ namespace BookService.Controllers
         }
 
         [HttpPost]
-        public HttpResponseMessage Post([FromBody] Book book)
+        public HttpResponseMessage Post([FromBody] Part part)
         {
             try
             {
@@ -106,35 +106,35 @@ namespace BookService.Controllers
                     return new HttpResponseMessage(HttpStatusCode.Unauthorized);
                 }
 
-                if (!string.IsNullOrWhiteSpace(book.ISBN))
+                if (!string.IsNullOrWhiteSpace(part.PartID))
                 {
                     return new HttpResponseMessage(HttpStatusCode.BadRequest);
                 }
-                Console.WriteLine($"POST /api/books");
-                Console.WriteLine(JsonSerializer.Serialize(book));
+                Console.WriteLine($"POST /api/parts");
+                Console.WriteLine(JsonSerializer.Serialize(part));
 
-                book.ISBN = BookFactory.CreateISBN();
+                part.PartID = PartsFactory.CreatePartID();
 
                 if (!ModelState.IsValid)
                 {
                     return new HttpResponseMessage(HttpStatusCode.BadRequest);
                 }
 
-                var userBooks = UserBooks;
+                var userParts = UserParts;
 
-                if(userBooks.Count >= 10)
+                if(userParts.Count >= 10)
                 {
                     return new HttpResponseMessage(HttpStatusCode.TooManyRequests);
                 }
 
-                if (userBooks.Any(x => x.ISBN == book.ISBN))
+                if (userParts.Any(x => x.PartID == part.PartID))
                 {
                     return new HttpResponseMessage(HttpStatusCode.Conflict);
                 }
 
-                userBooks.Add(book);
+                userParts.Add(part);
 
-                var json = JsonSerializer.Serialize(book);
+                var json = JsonSerializer.Serialize(part);
                 
                 HttpContext.Response.ContentType = "application/json";
                 var resp = new HttpResponseMessage(HttpStatusCode.Created)
@@ -142,7 +142,7 @@ namespace BookService.Controllers
                     Content = new StringContent(json)
                 };
 
-                resp.Headers.Location = new UriBuilder(Request.Scheme, Request.Host.Host, Request.Host.Port ?? -1, book.ISBN).Uri;
+                resp.Headers.Location = new UriBuilder(Request.Scheme, Request.Host.Host, Request.Host.Port ?? -1, part.PartID).Uri;
 
                 return resp;
             }
@@ -165,15 +165,15 @@ namespace BookService.Controllers
                     return new HttpResponseMessage(HttpStatusCode.Unauthorized);
                 }
 
-                var userBooks = UserBooks;
-                var existingBook = userBooks.SingleOrDefault(x => x.ISBN == isbn);
+                var userParts = UserParts;
+                var existingParts = userParts.SingleOrDefault(x => x.PartID == isbn);
 
-                if (existingBook == null)
+                if (existingParts == null)
                 {
                     return new HttpResponseMessage(HttpStatusCode.NotFound);
                 }
-                Console.WriteLine($"POST /api/books/{isbn}");
-                userBooks.RemoveAll(x => x.ISBN == isbn);
+                Console.WriteLine($"POST /api/parts/{isbn}");
+                userParts.RemoveAll(x => x.PartID == isbn);
 
                 return new HttpResponseMessage(HttpStatusCode.OK);
             }

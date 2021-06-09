@@ -1,11 +1,11 @@
 using System;
 using Microsoft.AspNetCore.Mvc;
-using BookService.Models;
+using PartsService.Models;
 
-namespace BookService.Controllers
+namespace PartsService.Controllers
 {
     [ApiController]
-    [Route("api/books/[controller]")]
+    [Route("api/parts/[controller]")]
     public class LoginController : ControllerBase
     {
         
@@ -16,7 +16,7 @@ namespace BookService.Controllers
             {
                 var authorizationToken = Guid.NewGuid().ToString();
 
-                BookFactory.Initialize(authorizationToken);
+                PartsFactory.Initialize(authorizationToken);
                 
                 return new JsonResult(authorizationToken);
             }

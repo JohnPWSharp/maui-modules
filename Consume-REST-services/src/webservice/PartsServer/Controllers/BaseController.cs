@@ -2,13 +2,13 @@ using System;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Collections.Generic;
-using BookService.Models;
+using PartsService.Models;
 
-namespace BookService.Controllers
+namespace PartsService.Controllers
 {
     public class BaseController : ControllerBase
     {
-        protected List<Book> UserBooks
+        protected List<Part> UserParts
         {
             get
             {
@@ -17,19 +17,19 @@ namespace BookService.Controllers
                     return null;
                 }
                 
-                if (!BookFactory.Books.ContainsKey(this.AuthorizationToken))
+                if (!PartsFactory.Parts.ContainsKey(this.AuthorizationToken))
                 {
                     return null;
                 }
 
-                var result = BookFactory.Books[this.AuthorizationToken];
+                var result = PartsFactory.Parts[this.AuthorizationToken];
 
                 return result.Item2;
             }
         }
         protected bool CheckAuthorization()
         {
-            BookFactory.ClearStaleData();
+            PartsFactory.ClearStaleData();
 
             try
             {
@@ -47,7 +47,7 @@ namespace BookService.Controllers
                     return false;
                 }
 
-                if (!BookFactory.Books.ContainsKey(this.AuthorizationToken))
+                if (!PartsFactory.Parts.ContainsKey(this.AuthorizationToken))
                 {
                     return false;
                 }

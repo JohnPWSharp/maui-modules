@@ -1,0 +1,21 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = People
+build_property.ProjectDir = C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People\
+
+[C:/Temp/repos/maui-modules/Store-local-data/exercise1/start/People/People/People/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = People.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.ItemSpec = C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People\App.xaml
+
+[C:/Temp/repos/maui-modules/Store-local-data/exercise1/start/People/People/People/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = People.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.ItemSpec = C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People\MainPage.xaml

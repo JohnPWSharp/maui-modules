@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="PartsClient.WinUI3" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>200,400,100</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="appicon.png" uri="ms-resource://PartsClient.WinUI3/Files/Assets/appicon.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\appicon.scale-400.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\appicon.scale-200.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\appicon.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="appiconfg.png" uri="ms-resource://PartsClient.WinUI3/Files/Assets/appiconfg.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\appiconfg.scale-400.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\appiconfg.scale-200.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\appiconfg.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dotnet_bot.png" uri="ms-resource://PartsClient.WinUI3/Files/Assets/dotnet_bot.png">
+					<Candidate qualifiers="Scale-400" isDefault="true" type="Path">
+						<Value>Assets\dotnet_bot.scale-400.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\dotnet_bot.scale-200.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
+						<Value>Assets\dotnet_bot.scale-100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="OpenSans-Regular.ttf" uri="ms-resource://PartsClient.WinUI3/Files/Assets/OpenSans-Regular.ttf">
+					<Candidate type="Path">
+						<Value>Assets\OpenSans-Regular.ttf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.Maui">
+				<ResourceMapSubtree name="Platform">
+					<ResourceMapSubtree name="Windows">
+						<ResourceMapSubtree name="Styles">
+							<NamedResource name="MauiComboBoxStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui/Platform/Windows/Styles/MauiComboBoxStyle.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="MauiTextBoxStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui/Platform/Windows/Styles/MauiTextBoxStyle.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Resources.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui/Platform/Windows/Styles/Resources.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.Maui.Controls">
+				<ResourceMapSubtree name="Platform">
+					<ResourceMapSubtree name="Windows">
+						<ResourceMapSubtree name="Styles">
+							<NamedResource name="MauiControlsPageControlStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls/Platform/Windows/Styles/MauiControlsPageControlStyle.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="Resources.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls/Platform/Windows/Styles/Resources.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ShellPageWrapper.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls/Platform/Windows/Styles/ShellPageWrapper.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="ShellStyles.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls/Platform/Windows/Styles/ShellStyles.xbf">
+								<Candidate type="EmbeddedData">
+									<Base64Value>[Embedded Binary Data]</Base64Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.Maui.Controls.Compatibility">
+				<ResourceMapSubtree name="WinUI">
+					<NamedResource name="FlyoutPageControlStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FlyoutPageControlStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsAutoSuggestBoxStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsAutoSuggestBoxStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsCheckBoxStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsCheckBoxStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsCommandBarStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsCommandBarStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsEmbeddedPageWrapper.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsEmbeddedPageWrapper.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsFlyout.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsFlyout.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsProgressBarStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsProgressBarStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FormsTextBoxStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/FormsTextBoxStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MasterDetailControlStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/MasterDetailControlStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PageControlStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/PageControlStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PickerStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/PickerStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PromptDialog.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/PromptDialog.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Resources.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/Resources.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SliderStyle.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/SliderStyle.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="CollectionView">
+						<NamedResource name="ItemsViewStyles.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Microsoft.Maui.Controls.Compatibility/WinUI/CollectionView/ItemsViewStyles.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Windows">
+				<NamedResource name="App.xbf" uri="ms-resource://PartsClient.WinUI3/Files/Windows/App.xbf">
+					<Candidate type="Path">
+						<Value>Windows\App.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

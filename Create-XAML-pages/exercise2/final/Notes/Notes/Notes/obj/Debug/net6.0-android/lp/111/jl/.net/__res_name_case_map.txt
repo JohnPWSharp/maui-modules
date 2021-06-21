@@ -1,0 +1,14 @@
+drawable/maui_splash.xml;drawable/maui_splash.xml
+drawable/maui_splash_image.xml;drawable/maui_splash_image.xml
+values/attr.xml;values/attr.xml
+values/colors.xml;values/colors.xml
+values/styles.xml;values/styles.xml
+values/tags.xml;values/tags.xml
+Layout/navigationlayout.axml;layout/navigationlayout.xml
+drawable/maui_splash.xml;drawable/maui_splash.xml
+drawable/maui_splash_image.xml;drawable/maui_splash_image.xml
+values/attr.xml;values/attr.xml
+values/colors.xml;values/colors.xml
+values/styles.xml;values/styles.xml
+values/tags.xml;values/tags.xml
+Layout/navigationlayout.axml;layout/navigationlayout.xml

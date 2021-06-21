@@ -1,0 +1,615 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Notes.WinUI/1.0.0": {
+        "dependencies": {
+          "Microsoft.Maui": "6.0.100-preview.5.794",
+          "Microsoft.ProjectReunion": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.16"
+        },
+        "runtime": {
+          "Notes.WinUI.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.16": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.10",
+            "fileVersion": "10.0.19041.16"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.2.35031"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.5.21301.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.5.21301.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.5.21301.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.5.21301.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.5.21301.5": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.5.21301.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.5.21301.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.5.21301.5": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-preview.5.21301.5": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.30105"
+          }
+        }
+      },
+      "Microsoft.Graphics.Win2D/0.5.0.13": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {
+            "assemblyVersion": "1.0.26.0",
+            "fileVersion": "1.0.26.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.5.0.0"
+          },
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.5.0.0"
+          },
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.5.0.0"
+          }
+        }
+      },
+      "Microsoft.Maui/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Controls.Compatibility": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Controls.SourceGen": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Core": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Essentials": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Resizetizer": "6.0.100-preview.5.794"
+        }
+      },
+      "Microsoft.Maui.Controls/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Core": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.100-preview.5.229",
+          "Microsoft.ProjectReunion": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.100-preview.5.229",
+          "System.CodeDom": "4.7.0"
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Controls": "6.0.100-preview.5.794",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.5.794",
+          "Microsoft.ProjectReunion": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Controls.SourceGen/6.0.100-preview.5.794": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Maui.Controls.SourceGen.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Controls.Xaml/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.5.21301.5",
+          "Microsoft.Maui.Controls": "6.0.100-preview.5.794"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Core/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.5.21301.5",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.5.229",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.100-preview.5.229",
+          "Microsoft.ProjectReunion": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview",
+          "Reloadify3000": "1.0.6"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.5.229",
+          "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "6.0.100-preview.5.229",
+          "Microsoft.ProjectReunion": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.25"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.100-preview.5.229": {
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.22"
+          }
+        }
+      },
+      "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.100-preview.5.229": {
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.5.229",
+          "Microsoft.ProjectReunion": "0.8.0-preview"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "6.0.100.22"
+          }
+        }
+      },
+      "Microsoft.Maui.Resizetizer/6.0.100-preview.5.794": {},
+      "Microsoft.ProjectReunion/0.8.0-preview": {
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "0.8.0-preview",
+          "Microsoft.ProjectReunion.Foundation": "0.8.0-preview",
+          "Microsoft.ProjectReunion.InteractiveExperiences": "0.8.0-preview",
+          "Microsoft.ProjectReunion.WinUI": "0.8.0-preview"
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.8.0-preview": {},
+      "Microsoft.ProjectReunion.Foundation/0.8.0-preview": {
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "0.8.0.0",
+            "fileVersion": "0.8.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/lib/native/arm64/Microsoft.ProjectReunion.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/arm64/Microsoft.ProjectReunion.Bootstrap.pdb": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x64/Microsoft.ProjectReunion.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x64/Microsoft.ProjectReunion.Bootstrap.pdb": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x86/Microsoft.ProjectReunion.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x86/Microsoft.ProjectReunion.Bootstrap.pdb": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ProjectReunion.InteractiveExperiences/0.8.0-preview": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.UI.Windowing.Projection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.22385.1002"
+          }
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.8.0-preview": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2104"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Reloadify3000/1.0.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esp.Resources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Esp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Reloadify3000.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.CodeDom/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.5.21301.5": {}
+    }
+  },
+  "libraries": {
+    "Notes.WinUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.16": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r3JqZncSnPqVU8HyYtlMiJQEjxA2pabluis6yxCKcqk6CK7NNfRYJ9AKHNPR0f2Z8f6n77nMjF3ZngAaQFFWWg==",
+      "path": "microsoft.extensions.configuration/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.configuration.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AWVzWl3d/PY2yFGOWLf+uerf5gwJ5+POXJNHpThQ/uQVmBiH+4aNU4UFj5P5cZr586MyzCI18ckD7pjtGpWREA==",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.configuration.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xpogvpCwGMBQJ8SdQkmp6B4/3hIenucurQZe0tCdlB/UnQDMguCfOWaplBNcCMNH5e6ck80PIR4xkSEz1p3Uw==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dgcgAmR4FXWkpC/kA+VO/1D8vBuLEIoChEfLQNNb4OL/oXlvIGhA57nqBDLM/W1bcilodEi9OsEzThcq5992tw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-APoJu+q2BBlJFGZ3QXivUapLzu6f9wyZbYJE7fWT7kgzRBhWPAaFiEHkfGYS3nBfpxHDSEhTCpfn7LE/E66LRw==",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hXkFqpW+VOCHJikhfMvlRSlFYZv//+1KLxOtJiIdDghBYJavfhVRvA8MjdiVFah/KYhom1sgQpxmph/28n0iew==",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.hosting.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CeJLkE4zPAwRef9/3N5LH9Tw9HfCxQY+QuMbOzRpnwR2iWrFjb/a1k7cY10noonP86LWZ4qH/TIalpRwJL1OGQ==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-96H1AKEQjWP1B0Qq9eQGHaJfYFCCL1XC5c5yKO5JhjfwuXmZ8exFAyMkb/0VS8f/pH5BgVGAxGbLfw82acXYQA==",
+      "path": "microsoft.extensions.primitives/6.0.0-preview.5.21301.5",
+      "hashPath": "microsoft.extensions.primitives.6.0.0-preview.5.21301.5.nupkg.sha512"
+    },
+    "Microsoft.Graphics.Win2D/0.5.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vglwUXp3PuC97dxaH/0IW58eCY8Bx0rCxLBCJWGRcoJYoF67DTDBiPx5j2GwR3NnclPhuCE9N3Pi13Ztqkqvaw==",
+      "path": "microsoft.graphics.win2d/0.5.0.13",
+      "hashPath": "microsoft.graphics.win2d.0.5.0.13.nupkg.sha512"
+    },
+    "Microsoft.Maui/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oG4S4wsIv8QkJuXhoqrPMjUtgn/bjoSbpcVbxboysxnfqEWbvY8DpGH/kF0DWhbYv6iAdcEfnQ0BViNyNsqv9Q==",
+      "path": "microsoft.maui/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4AlvqzfrB7RD8w5RYD+8+aAC05vetInqkYkBdphyPkOiQusZbuEzRlIL6jMMraCMmaybokAHO1IGKZhOP/QrDw==",
+      "path": "microsoft.maui.controls/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.controls.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QI+Z/BxxhwyZTpgQBDEL/7l6QSvLWBV6NYS9ezc44/wZ2xbN2+X6xHcd2L8O/FgCbtPKmTJmlMK+Qp2k8NcXxQ==",
+      "path": "microsoft.maui.controls.build.tasks/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.controls.build.tasks.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IwDOILdCAbZd7VWiRaUsl17e3HK42eFz6iDz8c2jidi7Uj3JD/iQFZbG5MmIujzmhdgJXjjTC78phXUUsb/A0g==",
+      "path": "microsoft.maui.controls.compatibility/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.controls.compatibility.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.SourceGen/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qM1IN6Q+Vh0p2/gxTyojl76SN0kX+LpL2s32vNmBkgQzDvP4KPgOQljUpw9aJiURxhjeNoMGTfBtdg0VxEz2mw==",
+      "path": "microsoft.maui.controls.sourcegen/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.controls.sourcegen.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Controls.Xaml/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n4p5Te2IkDabagx/DfO6jkthre+DrcR9+LVC1ezUNfk9NhWafHjJB8s37yS8Ad6oDBcNWf+OdJK+9fyez7dfUw==",
+      "path": "microsoft.maui.controls.xaml/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.controls.xaml.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Core/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KTj8ttNPJdfFjtIGK+NtaemWjm8qR0iIBG/Y68yFromvXnOJzGqRDaqSeknmyNhkNg5kqx83TNDOg8x6PDh++w==",
+      "path": "microsoft.maui.core/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.core.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Essentials/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xta5jgB8zvrgxIsC/BWlN48xqB27FkERIGjtRk8HfXQ5hFmBzSlbqyyeALK4xJ7gQC7Sn3N0Nkmp96kigsY2RA==",
+      "path": "microsoft.maui.essentials/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.essentials.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics/6.0.100-preview.5.229": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-70T/ggQwjaGs06AfRCsnCJrGEb7fxza4UEWzK1BtuuTvw55mqHA1P/VpxrwpfL1oXacckz6FtNEvEGc9C9XY0g==",
+      "path": "microsoft.maui.graphics/6.0.100-preview.5.229",
+      "hashPath": "microsoft.maui.graphics.6.0.100-preview.5.229.nupkg.sha512"
+    },
+    "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop/6.0.100-preview.5.229": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXAZy/2rbRezfnizAHRbDwwoHBvefshpoAxu+yhBRm1sB8ihyotfJ5Kz5a7e34Wlkl3DyqSIBTb7tAKv+tD/LQ==",
+      "path": "microsoft.maui.graphics.win2d.winui.desktop/6.0.100-preview.5.229",
+      "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.6.0.100-preview.5.229.nupkg.sha512"
+    },
+    "Microsoft.Maui.Resizetizer/6.0.100-preview.5.794": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+1DXzFHDzKqOsVkP8hBHjRyKDLsaLcIdHRg0WOVWZxmAACE1ALhqn1uxsDu32gsUrgl3CsuApbjqydEj3UkAeQ==",
+      "path": "microsoft.maui.resizetizer/6.0.100-preview.5.794",
+      "hashPath": "microsoft.maui.resizetizer.6.0.100-preview.5.794.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion/0.8.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p/Qx1khHUVChgVUZtA4cbP5LT1Mz1rvopDpXuOTv14zbXPK24fdUplMXkwaCq6+HzrjPJtfBtKxEiDnSoWLKCA==",
+      "path": "microsoft.projectreunion/0.8.0-preview",
+      "hashPath": "microsoft.projectreunion.0.8.0-preview.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.DWrite/0.8.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Gvh1Aqh5XZYzP25hG2nHZnpzbxNK/w+9wZIRiB/mqBxDoiKO9uWwSGgRJ/YaM/aEKdNbIGRo2BGvi0qUl2hRQ==",
+      "path": "microsoft.projectreunion.dwrite/0.8.0-preview",
+      "hashPath": "microsoft.projectreunion.dwrite.0.8.0-preview.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.Foundation/0.8.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F2Wxzfh7QSmW3H0ry1oFzbM9NdE5UJqDmDDbwg4FgASyGENyKVYbDudND9+4qu6lYRxSkxOlGmzaFaQjenROkA==",
+      "path": "microsoft.projectreunion.foundation/0.8.0-preview",
+      "hashPath": "microsoft.projectreunion.foundation.0.8.0-preview.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.InteractiveExperiences/0.8.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-So5oFA9cQ8E5MZjM+kgslz5ecZPaVSGD5hwir1hXwCwcj6uAsSve3zsP7oxpSAei9COvgVtZU8h1mLq+Ycu5Gw==",
+      "path": "microsoft.projectreunion.interactiveexperiences/0.8.0-preview",
+      "hashPath": "microsoft.projectreunion.interactiveexperiences.0.8.0-preview.nupkg.sha512"
+    },
+    "Microsoft.ProjectReunion.WinUI/0.8.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJn16CegyhSkQvFSXbTCp3EurOcNNUzjK8V1o/DfNVw50d/mqi/ym3Cbcc2o2PLTQHSMiuq6MlLXM9si0iF4Jg==",
+      "path": "microsoft.projectreunion.winui/0.8.0-preview",
+      "hashPath": "microsoft.projectreunion.winui.0.8.0-preview.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Reloadify3000/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CfSacZP0mwNZKo0D45MRxANxLk608L1XdTdGMsoTENayAkVE2nUhXRorzfVdDXhTPPqYSGt1h3oI5jAigZBumw==",
+      "path": "reloadify3000/1.0.6",
+      "hashPath": "reloadify3000.1.0.6.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.CodeDom/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
+      "path": "system.codedom/4.7.0",
+      "hashPath": "system.codedom.4.7.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.5.21301.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hBZKrPKTlSFCNVFFYsm8n4LdufxPA3UPdCT72F5PMdccZOta9Bg1UUu8KwWl0zcoBtk7jVJpZ+oAaV+9tq5GjQ==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.5.21301.5",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-preview.5.21301.5.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,2352 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows10.0.19041": {
+      "Microsoft.Extensions.Configuration/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Graphics.Win2D/0.5.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "build": {
+          "build/net5.0-windows10.0.18362.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-arm64"
+          },
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
+      "Microsoft.Maui/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Essentials": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Resizetizer": "6.0.100-preview.4.634"
+        }
+      },
+      "Microsoft.Maui.Controls/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "System.CodeDom": "4.7.0"
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.props": {},
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Xaml/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        }
+      },
+      "Microsoft.Maui.Core/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0",
+          "Reloadify3000": "1.0.6"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Core.props": {},
+          "buildTransitive/Microsoft.Maui.Core.targets": {}
+        }
+      },
+      "Microsoft.Maui.Essentials/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.100-preview.4.120": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "Microsoft.Maui.Resizetizer/6.0.100-preview.4.634": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion/0.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.6]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.6]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.6]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Reloadify3000/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.CodeDom/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    "net6.0-windows10.0.19041/win10-arm64": {
+      "Microsoft.Extensions.Configuration/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Graphics.Win2D/0.5.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "native": {
+          "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/net5.0-windows10.0.18362.0/_._": {}
+        }
+      },
+      "Microsoft.Maui/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Essentials": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Resizetizer": "6.0.100-preview.4.634"
+        }
+      },
+      "Microsoft.Maui.Controls/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "System.CodeDom": "4.7.0"
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.props": {},
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Xaml/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        }
+      },
+      "Microsoft.Maui.Core/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0",
+          "Reloadify3000": "1.0.6"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Core.props": {},
+          "buildTransitive/Microsoft.Maui.Core.targets": {}
+        }
+      },
+      "Microsoft.Maui.Essentials/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.100-preview.4.120": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "Microsoft.Maui.Resizetizer/6.0.100-preview.4.634": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion/0.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.6]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.6]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.6]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Reloadify3000/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.CodeDom/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    "net6.0-windows10.0.19041/win10-x64": {
+      "Microsoft.Extensions.Configuration/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Graphics.Win2D/0.5.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/net5.0-windows10.0.18362.0/_._": {}
+        }
+      },
+      "Microsoft.Maui/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Essentials": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Resizetizer": "6.0.100-preview.4.634"
+        }
+      },
+      "Microsoft.Maui.Controls/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "System.CodeDom": "4.7.0"
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.props": {},
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Xaml/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        }
+      },
+      "Microsoft.Maui.Core/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0",
+          "Reloadify3000": "1.0.6"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Core.props": {},
+          "buildTransitive/Microsoft.Maui.Core.targets": {}
+        }
+      },
+      "Microsoft.Maui.Essentials/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.100-preview.4.120": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "Microsoft.Maui.Resizetizer/6.0.100-preview.4.634": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion/0.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.6]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.6]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.6]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Reloadify3000/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.CodeDom/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    },
+    "net6.0-windows10.0.19041/win10-x86": {
+      "Microsoft.Extensions.Configuration/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.FileProviders.Abstractions": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-preview.4.21253.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Graphics.Win2D/0.5.0.13": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
+        },
+        "build": {
+          "build/net5.0-windows10.0.18362.0/_._": {}
+        }
+      },
+      "Microsoft.Maui/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Build.Tasks": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Essentials": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Resizetizer": "6.0.100-preview.4.634"
+        }
+      },
+      "Microsoft.Maui.Controls/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Core": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "System.CodeDom": "4.7.0"
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.props": {},
+          "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634",
+          "Microsoft.Maui.Controls.Xaml": "6.0.100-preview.4.634",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Xaml/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Controls": "6.0.100-preview.4.634"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll": {}
+        }
+      },
+      "Microsoft.Maui.Core/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Hosting.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0-preview.4.21253.7",
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0",
+          "Reloadify3000": "1.0.6"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.Maui.Core.props": {},
+          "buildTransitive/Microsoft.Maui.Core.targets": {}
+        }
+      },
+      "Microsoft.Maui.Essentials/6.0.100-preview.4.634": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graphics.Win2D": "0.5.0.13",
+          "Microsoft.Maui.Graphics": "6.0.100-preview.4.120",
+          "Microsoft.ProjectReunion": "0.5.0",
+          "Microsoft.ProjectReunion.Foundation": "0.5.0",
+          "Microsoft.ProjectReunion.WinUI": "0.5.0"
+        },
+        "compile": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll": {}
+        }
+      },
+      "Microsoft.Maui.Graphics/6.0.100-preview.4.120": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {}
+        }
+      },
+      "Microsoft.Maui.Resizetizer/6.0.100-preview.4.634": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Microsoft.Maui.Resizetizer.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion/0.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ProjectReunion.DWrite": "[0.5.6]",
+          "Microsoft.ProjectReunion.Foundation": "[0.5.6]",
+          "Microsoft.ProjectReunion.WinUI": "[0.5.6]"
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.props": {},
+          "build/Microsoft.ProjectReunion.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.DWrite/0.5.6": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.ProjectReunion.DWrite.props": {},
+          "build/Microsoft.ProjectReunion.DWrite.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.Foundation/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll": {}
+        },
+        "build": {
+          "build/Microsoft.ProjectReunion.Foundation.props": {},
+          "build/Microsoft.ProjectReunion.Foundation.targets": {}
+        }
+      },
+      "Microsoft.ProjectReunion.WinUI/0.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {}
+        },
+        "build": {
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.props": {},
+          "buildTransitive/Microsoft.ProjectReunion.WinUI.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Reloadify3000/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Esp.Resources.dll": {},
+          "lib/netstandard2.0/Esp.dll": {},
+          "lib/netstandard2.0/Reloadify3000.Core.dll": {},
+          "lib/netstandard2.0/Reloadify3000.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "System.CodeDom/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.4.21253.7": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.Configuration/6.0.0-preview.4.21253.7": {
+      "sha512": "n9MNEa2pnKNV7XAV5h6ivXopBE/cG0s/Mq8IJMj8JGlcl/xTK+R0u0WB4GpcDD0qBLBuZuVrGJNcAal4M2lXMw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/6.0.0-preview.4.21253.7": {
+      "sha512": "XSHNZ8Bdf7B7pAWdSNUnpZiJjrbyjSx45mEDfjk4jGXgkt11CDWk5EqYit0yncZkgKNAQLNPIazRRqEH4IFPvw==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0-preview.4.21253.7": {
+      "sha512": "+cvShFyT3MuvnYl2qJKRiuBUx50eFCHVl8nD/ZaUyGVQDHV32DWC1DBpHv/mLm4O53EBjW6j0m/lqXgl1ZJa0g==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-preview.4.21253.7": {
+      "sha512": "T2CnbwtWmYDGgg+mPm6hwpPJxKYnghOU3xtvPvKLDoxREV9yGF/sCt1bMqMdwvRXMANZELB3ooWXMaYm74Cqng==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/6.0.0-preview.4.21253.7": {
+      "sha512": "FFEjeQ28Yyu6Zoj1EZ3BommY9vTTrd8ftHxKwhtRMY0Fqtul6T9CCsrmzBFteQ99nJGYZBBsUGGpGBZbSkiloQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "microsoft.extensions.fileproviders.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/6.0.0-preview.4.21253.7": {
+      "sha512": "qrEV/oH7CU2aRHZ7AsMaAdDw5/pQLvZyTtsqrJJ/c8+Rp6tdQlwU65NQe5hFRqSy8pmqd4DH7nYdPC0v2IQ3ig==",
+      "type": "package",
+      "path": "microsoft.extensions.hosting.abstractions/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0-preview.4.21253.7": {
+      "sha512": "UZ7eDxnVduH3WMNvzGrKct8REpdLc31CMNsaa6YoZkJwZGzZatAMt26u1pRWosXaXmsINueV83uKDMFhPmi8Hg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0-preview.4.21253.7": {
+      "sha512": "6/lDuT2adENTB3xv33imDINOlk12FjhNagH2LCZ0+dc3UNke05DekLz9kSKVQufcvcWbNzzuxO5ucMJ94qQdBQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec"
+      ]
+    },
+    "Microsoft.Graphics.Win2D/0.5.0.13": {
+      "sha512": "vglwUXp3PuC97dxaH/0IW58eCY8Bx0rCxLBCJWGRcoJYoF67DTDBiPx5j2GwR3NnclPhuCE9N3Pi13Ztqkqvaw==",
+      "type": "package",
+      "path": "microsoft.graphics.win2d/0.5.0.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Win2d.githash.txt",
+        "build/Win2D.common.targets",
+        "build/native/Microsoft.Graphics.Win2D.targets",
+        "build/net45/Microsoft.Graphics.Win2D.targets",
+        "build/net5.0-windows10.0.18362.0/Microsoft.Graphics.Win2D.targets",
+        "build/netcoreapp3.0/Microsoft.Graphics.Win2D.targets",
+        "build/win10/Microsoft.Graphics.Win2D.targets",
+        "icon.png",
+        "include/Microsoft.Graphics.Canvas.native.h",
+        "include/arm64/Microsoft.Graphics.Canvas.h",
+        "include/x64/Microsoft.Graphics.Canvas.h",
+        "include/x86/Microsoft.Graphics.Canvas.h",
+        "lib/net45/Microsoft.Graphics.Canvas.winmd",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.Graphics.Canvas.Interop.dll",
+        "lib/netcoreapp3.0/Microsoft.Graphics.Canvas.winmd",
+        "lib/uap10.0/Microsoft.Graphics.Canvas.winmd",
+        "microsoft.graphics.win2d.0.5.0.13.nupkg.sha512",
+        "microsoft.graphics.win2d.nuspec",
+        "runtimes/win10-arm64/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll",
+        "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll"
+      ]
+    },
+    "Microsoft.Maui/6.0.100-preview.4.634": {
+      "sha512": "KEkKMY54PX71JWA1YimwFqTdZF9T45Ew4YLWtdfvAHfd8fz7b+S6XrMFlBFbgR/PihAXL2FE2FKF+QRGaGRgJw==",
+      "type": "package",
+      "path": "microsoft.maui/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.maui.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Controls/6.0.100-preview.4.634": {
+      "sha512": "8Xt6stxFAo75LwI7htv0TMejs2/8t5yeKi2CjNfxi03ZP8R/qirbrBmdDrHXziC8kqt6pp9+hgQI9/Sq2IqR1g==",
+      "type": "package",
+      "path": "microsoft.maui.controls/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android30.0/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/net6.0-android30.0/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.dll",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.xml",
+        "lib/net6.0-ios13.6/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/net6.0-ios13.6/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.dll",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.pdb",
+        "lib/net6.0-maccatalyst13.5/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/net6.0-maccatalyst13.5/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.pdb",
+        "lib/net6.0-windows10.0.18362/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/net6.0-windows10.0.18362/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.pri",
+        "lib/netstandard2.0/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/netstandard2.0/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.pdb",
+        "lib/netstandard2.1/Design/Microsoft.Maui.Controls.DesignTools.dll",
+        "lib/netstandard2.1/Design/Microsoft.Maui.Controls.DesignTools.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.pdb",
+        "microsoft.maui.controls.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.controls.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Controls.Build.Tasks/6.0.100-preview.4.634": {
+      "sha512": "sPU9kIP4XNau95DnnHuT2yJR5YP69njIzudvQdFnwig6LG8JXuiNRB8UpHrA6qdAOKPFUrd0LEaT3EFhIwFPtQ==",
+      "type": "package",
+      "path": "microsoft.maui.controls.build.tasks/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.dll",
+        "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.props",
+        "buildTransitive/Microsoft.Maui.Controls.Build.Tasks.targets",
+        "buildTransitive/Microsoft.Maui.Controls.DefaultItems.props",
+        "buildTransitive/Microsoft.Maui.Controls.DefaultItems.targets",
+        "buildTransitive/Microsoft.Maui.Controls.SingleProject.props",
+        "buildTransitive/Microsoft.Maui.Controls.SingleProject.targets",
+        "buildTransitive/Microsoft.Maui.Controls.Xaml.dll",
+        "buildTransitive/Microsoft.Maui.Controls.dll",
+        "buildTransitive/Microsoft.Maui.Graphics.dll",
+        "buildTransitive/Microsoft.Maui.dll",
+        "buildTransitive/Mono.Cecil.Mdb.dll",
+        "buildTransitive/Mono.Cecil.Pdb.dll",
+        "buildTransitive/Mono.Cecil.Rocks.dll",
+        "buildTransitive/Mono.Cecil.dll",
+        "buildTransitive/System.CodeDom.dll",
+        "microsoft.maui.controls.build.tasks.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.controls.build.tasks.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Controls.Compatibility/6.0.100-preview.4.634": {
+      "sha512": "kniB6QALN1qeYVBq2ZHA6/n1IjsUCNK4hEkoRvPWvhUYTReebGElwJ9e8RsIfpI0VLtCvauc6XlDO8mSl2GtJg==",
+      "type": "package",
+      "path": "microsoft.maui.controls.compatibility/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Compatibility.aar",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net6.0-ios13.6/ar/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ca/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/cs/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/da/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/de/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/el/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/es/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/fi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/fr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/he/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/hi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/hr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/hu/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/id/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/it/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ja/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ko/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ms/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/nb/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/nl/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/pl/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/pt-BR/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/pt/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ro/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/ru/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/sk/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/sv/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/th/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/tr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/uk/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/vi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/zh-HK/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/zh-Hans/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-ios13.6/zh-Hant/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net6.0-maccatalyst13.5/ar/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ca/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/cs/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/da/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/de/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/el/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/es/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/fi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/fr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/he/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/hi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/hr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/hu/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/id/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/it/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ja/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ko/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ms/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/nb/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/nl/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/pl/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/pt-BR/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/pt/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ro/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/ru/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/sk/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/sv/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/th/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/tr/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/uk/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/vi/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/zh-HK/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/zh-Hans/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-maccatalyst13.5/zh-Hant/Microsoft.Maui.Controls.Compatibility.resources.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Compatibility.pri",
+        "microsoft.maui.controls.compatibility.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.controls.compatibility.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Controls.Xaml/6.0.100-preview.4.634": {
+      "sha512": "UN0ryTCAZVPEzC3tUcOkuraY+gNRKiC5c3qXCf9+15CeVqhGzBJydpO75txjzLf/k5evn7BqW/lAJBD8wlCr4w==",
+      "type": "package",
+      "path": "microsoft.maui.controls.xaml/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0-android30.0/Design/Microsoft.Maui.Controls.Xaml.DesignTools.dll",
+        "lib/net6.0-android30.0/Design/Microsoft.Maui.Controls.Xaml.DesignTools.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Xaml.dll",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Xaml.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Controls.Xaml.xml",
+        "lib/net6.0-ios13.6/Design/Microsoft.Maui.Controls.Xaml.DesignTools.dll",
+        "lib/net6.0-ios13.6/Design/Microsoft.Maui.Controls.Xaml.DesignTools.pdb",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.Xaml.dll",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Controls.Xaml.pdb",
+        "lib/net6.0-maccatalyst13.5/Design/Microsoft.Maui.Controls.Xaml.DesignTools.dll",
+        "lib/net6.0-maccatalyst13.5/Design/Microsoft.Maui.Controls.Xaml.DesignTools.pdb",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.Xaml.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Controls.Xaml.pdb",
+        "lib/net6.0-windows10.0.18362/Design/Microsoft.Maui.Controls.Xaml.DesignTools.dll",
+        "lib/net6.0-windows10.0.18362/Design/Microsoft.Maui.Controls.Xaml.DesignTools.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Controls.Xaml.pdb",
+        "lib/netstandard2.0/Design/Microsoft.Maui.Controls.Xaml.DesignTools.dll",
+        "lib/netstandard2.0/Design/Microsoft.Maui.Controls.Xaml.DesignTools.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Xaml.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Xaml.pdb",
+        "microsoft.maui.controls.xaml.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.controls.xaml.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Core/6.0.100-preview.4.634": {
+      "sha512": "P2JpMsU1Q8ETe/kffKocdoRZ3tOBPAayPJD2Z0gRfyw+oMAt5MZhA077hfvgXRHdcAnnNJwmbt5S/+qgVFChXw==",
+      "type": "package",
+      "path": "microsoft.maui.core/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Maui.Core.props",
+        "build/Microsoft.Maui.Core.targets",
+        "buildTransitive/Microsoft.Maui.Core.props",
+        "buildTransitive/Microsoft.Maui.Core.targets",
+        "lib/net6.0-android30.0/Microsoft.Maui.aar",
+        "lib/net6.0-android30.0/Microsoft.Maui.dll",
+        "lib/net6.0-android30.0/Microsoft.Maui.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.xml",
+        "lib/net6.0-ios13.6/Microsoft.Maui.dll",
+        "lib/net6.0-ios13.6/Microsoft.Maui.pdb",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.pri",
+        "lib/netstandard2.0/Microsoft.Maui.dll",
+        "lib/netstandard2.0/Microsoft.Maui.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.dll",
+        "lib/netstandard2.1/Microsoft.Maui.pdb",
+        "microsoft.maui.core.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.core.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Essentials/6.0.100-preview.4.634": {
+      "sha512": "Bo7Nfo6WvU8WSPrZ1Um1T491OGCIY4H0R1Hg/p43an9QRTrCQRZ6JzveYDo12kpoHeDZ3A6JFsWmUc5NKt6FVw==",
+      "type": "package",
+      "path": "microsoft.maui.essentials/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net6.0-android30.0/Microsoft.Maui.Essentials.aar",
+        "lib/net6.0-android30.0/Microsoft.Maui.Essentials.dll",
+        "lib/net6.0-android30.0/Microsoft.Maui.Essentials.pdb",
+        "lib/net6.0-android30.0/Microsoft.Maui.Essentials.xml",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.dll",
+        "lib/net6.0-ios13.6/Microsoft.Maui.Essentials.pdb",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.dll",
+        "lib/net6.0-maccatalyst13.5/Microsoft.Maui.Essentials.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.dll",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.pdb",
+        "lib/net6.0-windows10.0.18362/Microsoft.Maui.Essentials.pri",
+        "lib/netstandard2.0/Microsoft.Maui.Essentials.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Essentials.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Essentials.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Essentials.pdb",
+        "microsoft.maui.essentials.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.essentials.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Microsoft.Maui.Graphics/6.0.100-preview.4.120": {
+      "sha512": "b8dgSBd6pplfn/8UgddPYtycGvzw3yhkqfg57HIlXu8T8I2pQGGddatkC+uqerUDMbfe37qnGi9Hgt0kQfgR6A==",
+      "type": "package",
+      "path": "microsoft.maui.graphics/6.0.100-preview.4.120",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Microsoft.Maui.Graphics.dll",
+        "lib/monoandroid10.0/Microsoft.Maui.Graphics.pdb",
+        "lib/net6.0-android/Microsoft.Maui.Graphics.dll",
+        "lib/net6.0-android/Microsoft.Maui.Graphics.pdb",
+        "lib/net6.0-ios/Microsoft.Maui.Graphics.dll",
+        "lib/net6.0-ios/Microsoft.Maui.Graphics.pdb",
+        "lib/net6.0-maccatalyst/Microsoft.Maui.Graphics.dll",
+        "lib/net6.0-maccatalyst/Microsoft.Maui.Graphics.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Graphics.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Graphics.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
+        "lib/xamarin.ios10/Microsoft.Maui.Graphics.dll",
+        "lib/xamarin.ios10/Microsoft.Maui.Graphics.pdb",
+        "lib/xamarin.mac20/Microsoft.Maui.Graphics.dll",
+        "lib/xamarin.mac20/Microsoft.Maui.Graphics.pdb",
+        "microsoft.maui.graphics.6.0.100-preview.4.120.nupkg.sha512",
+        "microsoft.maui.graphics.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Resizetizer/6.0.100-preview.4.634": {
+      "sha512": "nwEOrMF+st0JSduHcypZJ7ZjEeoZx4yNHLigJp8JU2yY/V71rZ67paffzs6Cfb+40QcfcEnSKmsMBUAhThcj9w==",
+      "type": "package",
+      "path": "microsoft.maui.resizetizer/6.0.100-preview.4.634",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "buildTransitive/Fizzler.dll",
+        "buildTransitive/HarfBuzzSharp.dll",
+        "buildTransitive/Microsoft.Maui.Resizetizer.dll",
+        "buildTransitive/Microsoft.Maui.Resizetizer.targets",
+        "buildTransitive/Newtonsoft.Json.dll",
+        "buildTransitive/SkiaSharp.HarfBuzz.dll",
+        "buildTransitive/SkiaSharp.dll",
+        "buildTransitive/Svg.Custom.dll",
+        "buildTransitive/Svg.Picture.dll",
+        "buildTransitive/Svg.Skia.dll",
+        "buildTransitive/Svg2VectorDrawable.Net.dll",
+        "buildTransitive/System.Buffers.dll",
+        "buildTransitive/System.IO.UnmanagedMemoryStream.dll",
+        "buildTransitive/System.Memory.dll",
+        "buildTransitive/System.Numerics.Vectors.dll",
+        "buildTransitive/System.ObjectModel.dll",
+        "buildTransitive/System.Runtime.CompilerServices.Unsafe.dll",
+        "buildTransitive/arm/libHarfBuzzSharp.so",
+        "buildTransitive/arm/libSkiaSharp.so",
+        "buildTransitive/arm64/libHarfBuzzSharp.dll",
+        "buildTransitive/arm64/libHarfBuzzSharp.so",
+        "buildTransitive/arm64/libSkiaSharp.dll",
+        "buildTransitive/arm64/libSkiaSharp.so",
+        "buildTransitive/libHarfBuzzSharp.dylib",
+        "buildTransitive/libSkiaSharp.dylib",
+        "buildTransitive/musl-x64/libHarfBuzzSharp.so",
+        "buildTransitive/musl-x64/libSkiaSharp.so",
+        "buildTransitive/x64/libHarfBuzzSharp.dll",
+        "buildTransitive/x64/libHarfBuzzSharp.so",
+        "buildTransitive/x64/libSkiaSharp.dll",
+        "buildTransitive/x64/libSkiaSharp.so",
+        "buildTransitive/x86/libHarfBuzzSharp.dll",
+        "buildTransitive/x86/libSkiaSharp.dll",
+        "microsoft.maui.resizetizer.6.0.100-preview.4.634.nupkg.sha512",
+        "microsoft.maui.resizetizer.nuspec"
+      ]
+    },
+    "Microsoft.ProjectReunion/0.5.6": {
+      "sha512": "eBzbxc5YP7TPt36MsFJM6xQVo/djZw5CxVYJL4RT08W2hS5l5eM+Fb2ClZSLGkeUgtRWgKgFJsrUpl85bmAaZw==",
+      "type": "package",
+      "path": "microsoft.projectreunion/0.5.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.ProjectReunion.AppXReference.props",
+        "build/Microsoft.ProjectReunion.Metapackage.props",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/Microsoft.ProjectReunion.props",
+        "build/Microsoft.ProjectReunion.targets",
+        "build/Microsoft.Xaml.Tooling.targets",
+        "build/MicrosoftProjectReunionFoundationAppXVersion.props",
+        "build/native/Microsoft.ProjectReunion.props",
+        "license.txt",
+        "microsoft.projectreunion.0.5.6.nupkg.sha512",
+        "microsoft.projectreunion.nuspec",
+        "tools/AppX/win10-arm64/Microsoft.ProjectReunion.0.5.appx",
+        "tools/AppX/win10-x64/Microsoft.ProjectReunion.0.5.appx",
+        "tools/AppX/win10-x86/Microsoft.ProjectReunion.0.5.appx"
+      ]
+    },
+    "Microsoft.ProjectReunion.DWrite/0.5.6": {
+      "sha512": "gFwTCimPnxGK6ZKLHNxlNW2Vdls6hNoRDoN2RBlXgHiy3eJ2gcmPmEbGoxTsaTXPb+12ulqNcod96S6UbToObw==",
+      "type": "package",
+      "path": "microsoft.projectreunion.dwrite/0.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.ProjectReunion.DWrite.ProjectCapabilities.props",
+        "build/Microsoft.ProjectReunion.DWrite.props",
+        "build/Microsoft.ProjectReunion.DWrite.targets",
+        "lib/native/include/dwrite.h",
+        "lib/native/include/dwrite_1.h",
+        "lib/native/include/dwrite_2.h",
+        "lib/native/include/dwrite_3.h",
+        "lib/native/include/dwrite_core.h",
+        "lib/native/windows/arm64/release/DWriteCore.lib",
+        "lib/native/windows/x64/release/DWriteCore.lib",
+        "lib/native/windows/x86/release/DWriteCore.lib",
+        "license.txt",
+        "microsoft.projectreunion.dwrite.0.5.6.nupkg.sha512",
+        "microsoft.projectreunion.dwrite.nuspec"
+      ]
+    },
+    "Microsoft.ProjectReunion.Foundation/0.5.6": {
+      "sha512": "GhkeRXkwk95TSx4t4gnTTSc5VXBzgLLLxzknODzlSwZEs4D7mjeSoMaX0iFDC4/DHuUf2Y1U2JNo00eZ+Cj1Sg==",
+      "type": "package",
+      "path": "microsoft.projectreunion.foundation/0.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/Microsoft.ApplicationModel.Resources.PriGen.targets",
+        "build/Microsoft.ApplicationModel.Resources.References.targets",
+        "build/Microsoft.ApplicationModel.Resources.targets",
+        "build/Microsoft.ProjectReunion.Foundation.props",
+        "build/Microsoft.ProjectReunion.Foundation.targets",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/README.md",
+        "build/native/Microsoft.ApplicationModel.Resources.C.props",
+        "build/native/Microsoft.ApplicationModel.Resources.WinRt.props",
+        "build/native/Microsoft.ApplicationModel.Resources.props",
+        "build/native/Microsoft.ApplicationModel.Resources.targets",
+        "build/native/Microsoft.ProjectReunion.Foundation.props",
+        "build/native/Microsoft.ProjectReunion.Foundation.targets",
+        "include/MRM.h",
+        "lib/native/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.dll",
+        "lib/net5.0-windows/Microsoft.ApplicationModel.Resources.Projection.pdb",
+        "lib/uap10.0/Microsoft.ApplicationModel.Resources/Microsoft.ApplicationModel.Resources.winmd",
+        "lib/uap10.0/Microsoft.ProjectReunion.winmd",
+        "lib/win10-arm64/MRM.lib",
+        "lib/win10-arm64/Microsoft.ProjectReunion.lib",
+        "lib/win10-x64/MRM.lib",
+        "lib/win10-x64/Microsoft.ProjectReunion.lib",
+        "lib/win10-x86/MRM.lib",
+        "lib/win10-x86/Microsoft.ProjectReunion.lib",
+        "microsoft.projectreunion.foundation.0.5.6.nupkg.sha512",
+        "microsoft.projectreunion.foundation.nuspec"
+      ]
+    },
+    "Microsoft.ProjectReunion.WinUI/0.5.6": {
+      "sha512": "/wmAeLNIkCwrAzp412IlF7QDsWU/VFElUP7D7Msk81aLbO2gar68cyh6/cthZ9PykQE2THMHGecUP1PrCjk/Bw==",
+      "type": "package",
+      "path": "microsoft.projectreunion.winui/0.5.6",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppxManifest.xml",
+        "build/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "build/AppDevPackageScripts/Install.ps1",
+        "build/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "build/DefaultWin32Manifests/default.manifest",
+        "build/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "build/DefaultWin32Manifests/dpiaware-system.manifest",
+        "build/Microsoft.Build.Msix.Common.props",
+        "build/Microsoft.Build.Msix.Cpp.props",
+        "build/Microsoft.Build.Msix.Cpp.targets",
+        "build/Microsoft.Build.Msix.DesignTime.targets",
+        "build/Microsoft.Build.Msix.Packaging.targets",
+        "build/Microsoft.Build.Msix.Pri.targets",
+        "build/Microsoft.Build.Msix.ReunionManifest.targets",
+        "build/Microsoft.Build.Msix.props",
+        "build/Microsoft.Build.Msix.targets",
+        "build/Microsoft.ProjectReunion.Foundation.targets",
+        "build/Microsoft.ProjectReunion.Package.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/Microsoft.ProjectReunion.WinUI.props",
+        "build/Microsoft.ProjectReunion.WinUI.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "build/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.AppX.targets",
+        "build/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "build/Microsoft.WinUI.ProjectCapabilities.props",
+        "build/Microsoft.WinUI.References.targets",
+        "build/Microsoft.WinUI.props",
+        "build/Microsoft.WinUI.targets",
+        "build/native/LiftedWinRTClassRegistrations.xml",
+        "build/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "build/native/Microsoft.ProjectReunion.WinUI.props",
+        "build/native/Microsoft.ProjectReunion.WinUI.targets",
+        "build/native/Microsoft.WinUI.References.targets",
+        "build/native/Microsoft.WinUI.props",
+        "build/native/Microsoft.WinUI.targets",
+        "build/update-project-capability-version.targets",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.ps1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1",
+        "buildTransitive/AppDevPackageScripts/Install.ps1",
+        "buildTransitive/AppDevPackageScripts/LogSideloadingTelemetry.ps1",
+        "buildTransitive/DefaultWin32Manifests/default.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-permonv2.manifest",
+        "buildTransitive/DefaultWin32Manifests/dpiaware-system.manifest",
+        "buildTransitive/Microsoft.Build.Msix.Common.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.props",
+        "buildTransitive/Microsoft.Build.Msix.Cpp.targets",
+        "buildTransitive/Microsoft.Build.Msix.DesignTime.targets",
+        "buildTransitive/Microsoft.Build.Msix.Packaging.targets",
+        "buildTransitive/Microsoft.Build.Msix.Pri.targets",
+        "buildTransitive/Microsoft.Build.Msix.ReunionManifest.targets",
+        "buildTransitive/Microsoft.Build.Msix.props",
+        "buildTransitive/Microsoft.Build.Msix.targets",
+        "buildTransitive/Microsoft.ProjectReunion.Foundation.targets",
+        "buildTransitive/Microsoft.ProjectReunion.Package.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.props",
+        "buildTransitive/Microsoft.UI.Xaml.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.AppX.targets",
+        "buildTransitive/Microsoft.WinUI.NET.Markup.Compiler.targets",
+        "buildTransitive/Microsoft.WinUI.ProjectCapabilities.props",
+        "buildTransitive/Microsoft.WinUI.References.targets",
+        "buildTransitive/Microsoft.WinUI.props",
+        "buildTransitive/Microsoft.WinUI.targets",
+        "buildTransitive/native/LiftedWinRTClassRegistrations.xml",
+        "buildTransitive/native/LiftedWinRTClassRegistrationsUnpackaged.xml",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.TransportPackage.targets",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.props",
+        "buildTransitive/native/Microsoft.ProjectReunion.WinUI.targets",
+        "buildTransitive/native/Microsoft.WinUI.References.targets",
+        "buildTransitive/native/Microsoft.WinUI.props",
+        "buildTransitive/native/Microsoft.WinUI.targets",
+        "buildTransitive/update-project-capability-version.targets",
+        "include/Microsoft.Graphics.Interop.h",
+        "include/Microsoft.System.DispatcherQueue.Interop.h",
+        "include/Microsoft.UI.Composition.Interop.h",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.h",
+        "include/microsoft.ui.xaml.hosting.desktopwindowxamlsource.idl",
+        "include/microsoft.ui.xaml.hosting.referencetracker.h",
+        "include/microsoft.ui.xaml.hosting.referencetracker.idl",
+        "include/microsoft.ui.xaml.media.dxinterop.h",
+        "include/microsoft.ui.xaml.media.dxinterop.idl",
+        "include/microsoft.ui.xaml.window.h",
+        "include/microsoft.ui.xaml.window.idl",
+        "include/microsoft.ui.xaml.xamlroot.h",
+        "include/microsoft.ui.xaml.xamlroot.idl",
+        "include/winrtdirect3d11.h",
+        "include/winrtdirectxcommon.h",
+        "include/xamlom.h",
+        "include/xamlom.idl",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.xml",
+        "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.Foundation.winmd",
+        "lib/uap10.0/Microsoft.Graphics.winmd",
+        "lib/uap10.0/Microsoft.System.winmd",
+        "lib/uap10.0/Microsoft.System.xml",
+        "lib/uap10.0/Microsoft.UI.Text.winmd",
+        "lib/uap10.0/Microsoft.UI.winmd",
+        "lib/uap10.0/Microsoft.UI.xml",
+        "lib/uap10.0/Microsoft.UI/Themes/generic.xaml",
+        "lib/uap10.0/Microsoft.Web.WebView2.Core.winmd",
+        "license.txt",
+        "microsoft.projectreunion.winui.0.5.6.nupkg.sha512",
+        "microsoft.projectreunion.winui.nuspec",
+        "tools/Microsoft.Build.Framework.dll",
+        "tools/Microsoft.Build.Msix.dll",
+        "tools/Microsoft.Build.Utilities.Core.dll",
+        "tools/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.MSBuildInterop.dll",
+        "tools/Microsoft.UI.Xaml.Markup.Compiler.dll",
+        "tools/Microsoft.VisualStudio.RemoteControl.dll",
+        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/Microsoft.VisualStudio.Telemetry.dll",
+        "tools/Microsoft.VisualStudio.Utilities.Internal.dll",
+        "tools/arm64/GenXbf.dll",
+        "tools/x64/GenXbf.dll",
+        "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Reloadify3000/1.0.6": {
+      "sha512": "CfSacZP0mwNZKo0D45MRxANxLk608L1XdTdGMsoTENayAkVE2nUhXRorzfVdDXhTPPqYSGt1h3oI5jAigZBumw==",
+      "type": "package",
+      "path": "reloadify3000/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Mono.Cecil.dll",
+        "build/Reloadify3000.Build.Tasks.dll",
+        "build/Reloadify3000.targets",
+        "lib/netstandard2.0/Esp.Resources.dll",
+        "lib/netstandard2.0/Esp.Resources.dll.backup",
+        "lib/netstandard2.0/Esp.Resources.pdb",
+        "lib/netstandard2.0/Esp.dll",
+        "lib/netstandard2.0/Esp.pdb",
+        "lib/netstandard2.0/Reloadify3000.Core.dll",
+        "lib/netstandard2.0/Reloadify3000.Core.pdb",
+        "lib/netstandard2.0/Reloadify3000.dll",
+        "lib/netstandard2.0/Reloadify3000.pdb",
+        "reloadify3000.1.0.6.nupkg.sha512",
+        "reloadify3000.nuspec"
+      ]
+    },
+    "System.CodeDom/4.7.0": {
+      "sha512": "Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
+      "type": "package",
+      "path": "system.codedom/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.7.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-preview.4.21253.7": {
+      "sha512": "rOTMSKPvs0Wgmne/DaGxFUiD4gcvzzEUvgPtRbJ3MQHVK2wIgNlQUyMPt8Ny6RwzNo5odbfDpwNZy4cfkkc7mA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-preview.4.21253.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows10.0.19041": [
+      "Microsoft.Maui >= 6.0.100-preview.4.*",
+      "Microsoft.Maui.Controls.Compatibility >= 6.0.100-preview.4.*",
+      "Microsoft.Maui.Resizetizer >= 6.0.100-preview.4.*",
+      "Microsoft.ProjectReunion >= 0.5.6 <= 0.5.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\exercise1\\maui-final\\PartsClient\\PartsClient\\PartsClient.WinUI3\\PartsClient.WinUI3.csproj",
+      "projectName": "PartsClient.WinUI3",
+      "projectPath": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\exercise1\\maui-final\\PartsClient\\PartsClient\\PartsClient.WinUI3\\PartsClient.WinUI3.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\exercise1\\maui-final\\PartsClient\\PartsClient\\PartsClient.WinUI3\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows10.0.19041"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows10.0.19041": {
+          "targetAlias": "net6.0-windows10.0.19041",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows10.0.19041": {
+        "targetAlias": "net6.0-windows10.0.19041",
+        "dependencies": {
+          "Microsoft.Maui": {
+            "target": "Package",
+            "version": "[6.0.100-preview.4.*, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
+            "target": "Package",
+            "version": "[6.0.100-preview.4.*, )"
+          },
+          "Microsoft.Maui.Resizetizer": {
+            "target": "Package",
+            "version": "[6.0.100-preview.4.*, )"
+          },
+          "Microsoft.ProjectReunion": {
+            "include": "Build",
+            "target": "Package",
+            "version": "[0.5.6, 0.5.6]"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
+            "version": "[6.0.0-preview.4.21253.5, 6.0.0-preview.4.21253.5]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.0-preview.4.21253.5, 6.0.0-preview.4.21253.5]"
+          },
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[6.0.0-preview.4.21253.5, 6.0.0-preview.4.21253.5]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-arm64",
+            "version": "[6.0.0-preview.4.21253.7, 6.0.0-preview.4.21253.7]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.0-preview.4.21253.7, 6.0.0-preview.4.21253.7]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[6.0.0-preview.4.21253.7, 6.0.0-preview.4.21253.7]"
+          },
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.16, 10.0.19041.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
+            "version": "[6.0.0-preview.4.21254.5, 6.0.0-preview.4.21254.5]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.0-preview.4.21254.5, 6.0.0-preview.4.21254.5]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[6.0.0-preview.4.21254.5, 6.0.0-preview.4.21254.5]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win10-arm64": {
+        "#import": []
+      },
+      "win10-x64": {
+        "#import": []
+      },
+      "win10-x86": {
+        "#import": []
+      }
+    }
+  }
+}

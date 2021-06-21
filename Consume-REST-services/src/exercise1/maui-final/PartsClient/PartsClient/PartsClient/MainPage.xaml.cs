@@ -17,6 +17,8 @@ namespace PartsClient
         {
             BindingContext = parts;
             InitializeComponent();
+
+            this.OnRefresh(this, null);
         }
 
         async void OnRefresh(object sender, EventArgs e)

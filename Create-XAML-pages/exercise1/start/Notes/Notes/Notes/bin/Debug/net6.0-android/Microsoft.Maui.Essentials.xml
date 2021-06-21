@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Maui.Essentials</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Maui.Essentials.UnitConverters.MetersToInternationalFeet(System.Double)">
+            <summary>
+            International survey foot defined as exactly 0.3048 meters by convention in 1959. This is the most common modern foot measure.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Essentials.UnitConverters.InternationalFeetToMeters(System.Double)">
+            <summary>
+            International survey foot defined as exactly 0.3048 meters by convention in 1959. This is the most common modern foot measure.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Essentials.UnitConverters.MetersToUSSurveyFeet(System.Double)">
+            <summary>
+            Exactly 1200/3937 meters by definition. In decimal terms approximately 0.304 800 609 601 219 meters. Variation from the common international foot of exactly 0.3048 meters may only be considerable over large survey distances.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Essentials.UnitConverters.USSurveyFeetToMeters(System.Double)">
+            <summary>
+            Exactly 1200/3937 meters by definition. In decimal terms approximately 0.304 800 609 601 219 meters. Variation from the common international foot of exactly 0.3048 meters may only be considerable over large survey distances.
+            </summary>
+        </member>
+        <member name="T:ThisAssembly">
+            <summary>Provides access to the current assembly information.</summary>
+        </member>
+        <member name="T:ThisAssembly.Git">
+            <summary>Provides access to the git information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirty">
+            <summary>IsDirty: true</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirtyString">
+            <summary>IsDirtyString: true</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.RepositoryUrl">
+            <summary>Repository URL: https://github.com/dotnet/maui</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Branch">
+            <summary>Branch: 6.0.1xx-preview5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commit">
+            <summary>Commit: 5ee505113</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Sha">
+            <summary>Sha: 5ee5051138dc536dff179f6e2591b218d560cd46</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.CommitDate">
+            <summary>Commit date: 2021-06-15T21:00:10+02:00</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commits">
+            <summary>Commits on top of base version: 25</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Tag">
+            <summary>Tag: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseTag">
+            <summary>Base tag: </summary>
+        </member>
+        <member name="T:ThisAssembly.Git.BaseVersion">
+            <summary>Provides access to the base version information used to determine the <see cref="T:ThisAssembly.Git.SemVer" />.</summary>      
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Major">
+            <summary>Major: 6</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Patch">
+            <summary>Patch: 100</summary>
+        </member>
+        <member name="T:ThisAssembly.Git.SemVer">
+            <summary>Provides access to SemVer information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Major">
+            <summary>Major: 6</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Patch">
+            <summary>Patch: 125</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Label">
+            <summary>Label: preview.5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.DashLabel">
+            <summary>Label with dash prefix: -preview.5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Source">
+            <summary>Source: File</summary>
+        </member>
+    </members>
+</doc>

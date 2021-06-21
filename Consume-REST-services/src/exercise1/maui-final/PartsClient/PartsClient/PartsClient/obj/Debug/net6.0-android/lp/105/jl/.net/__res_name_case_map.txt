@@ -1,0 +1,13 @@
+Android/Resources/Layout/bottomtablayout.axml;layout/bottomtablayout.xml
+Android/Resources/Layout/flyoutcontent.axml;layout/flyoutcontent.xml
+Android/Resources/Layout/rootlayout.axml;layout/rootlayout.xml
+Android/Resources/Layout/shellcontent.axml;layout/shellcontent.xml
+Android/Resources/Layout/tabbar.axml;layout/tabbar.xml
+Android/Resources/Layout/toolbar.axml;layout/toolbar.xml
+Android/Resources/anim/enterfromleft.xml;anim/enterfromleft.xml
+Android/Resources/anim/enterfromright.xml;anim/enterfromright.xml
+Android/Resources/anim/exittoleft.xml;anim/exittoleft.xml
+Android/Resources/anim/exittoright.xml;anim/exittoright.xml
+Android/Resources/values/styles.xml;values/styles.xml
+Android/Resources/values/strings.xml;values/strings.xml
+Android/Resources/values/attrs.xml;values/attrs.xml

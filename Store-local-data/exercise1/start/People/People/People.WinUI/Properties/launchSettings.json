@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "People.WinUI": {
+      "commandName": "AppContainer"
+    }
+  }
+}

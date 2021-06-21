@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Notes.WinUI": {
+      "commandName": "AppContainer"
+    }
+  }
+}

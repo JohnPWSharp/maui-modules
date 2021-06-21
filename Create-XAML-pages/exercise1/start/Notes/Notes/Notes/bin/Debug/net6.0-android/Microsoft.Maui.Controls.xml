@@ -1,0 +1,759 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Maui.Controls</name>
+    </assembly>
+    <members>
+        <member name="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Buttons">
+            <summary>
+                Gets titles of any buttons on the action sheet that aren't <see cref="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Cancel" /> or <see cref="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Destruction" />. Can
+                be <c>null</c>.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Cancel">
+            <summary>
+                Gets the text for a cancel button. Can be null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Destruction">
+            <summary>
+                Gets the text for a destructive button. Can be null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.ActionSheetArguments.Title">
+            <summary>
+                Gets the title for the action sheet. Can be null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.AlertArguments.Accept">
+            <summary>
+                Gets the text for the accept button. Can be null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.AlertArguments.Cancel">
+            <summary>
+                Gets the text of the cancel button.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.AlertArguments.Message">
+            <summary>
+                Gets the message for the alert. Can be null.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Internals.AlertArguments.Title">
+            <summary>
+                Gets the title for the alert. Can be null.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Internals.Crc64">
+            <summary>
+             CRC64 variant: crc-64-jones 64-bit
+             * Poly: 0xad93d23594c935a9
+             Changes beyond initial implementation:
+             * Starting Value: ulong.MaxValue
+             * XOR length in HashFinal()
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.BindingExpression.Apply(System.Boolean)">
+            <summary>
+                Applies the binding expression to a previously set source and target.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.BindingExpression.Apply(System.Object,Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty)">
+            <summary>
+                Applies the binding expression to a new source or target.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.BindingExpression.ApplyCore(System.Object,Microsoft.Maui.Controls.BindableObject,Microsoft.Maui.Controls.BindableProperty,System.Boolean)">
+            <summary>
+                Applies the binding expression to a previously set source or target.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Button.cornerOrBorderRadiusSetting">
+            <summary>
+            Flag to prevent overwriting the value of CornerRadius
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.AlignContent">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.AlignContent" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.Stretch">
+            <summary>
+            Whether an item's should be stretched out.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.Center">
+            <summary>
+            Whether an item should be packed around the center.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.Start">
+            <summary>
+            Whether an item should be packed at the start.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.End">
+            <summary>
+            Whether an item should be packed at the end.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.SpaceBetween">
+            <summary>
+            Whether items should be distributed evenly, the first item being at the start and the last item being at the end.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.SpaceAround">
+            <summary>
+            Whether items should be distributed evenly, the first and last items having a half-size space.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignContent.SpaceEvenly">
+            <summary>
+            Whether items should be distributed evenly, all items having equal space around them.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.AlignItems">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.AlignItems" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignItems.Stretch">
+            <summary>
+            Whether an item's should be stretched out.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignItems.Center">
+            <summary>
+            Whether an item should be packed around the center.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignItems.Start">
+            <summary>
+            Whether an item should be packed at the start.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignItems.End">
+            <summary>
+            Whether an item should be packed at the end.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.AlignSelf">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.AlignSelf" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignSelf.Auto">
+            <summary>
+            Whether an item should be packed according to the alignment value of its parent.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignSelf.Stretch">
+            <summary>
+            Whether an item's should be stretched out.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignSelf.Center">
+            <summary>
+            Whether an item should be packed around the center.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignSelf.Start">
+            <summary>
+            Whether an item should be packed at the start.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.AlignSelf.End">
+            <summary>
+            Whether an item should be packed at the end.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Direction">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.Direction" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Direction.Row">
+            <summary>
+            Whether items should be stacked horizontally.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Direction.RowReverse">
+            <summary>
+            Like Row but in reverse order.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Direction.Column">
+            <summary>
+            Whether items should be stacked vertically.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Direction.ColumnReverse">
+            <summary>
+            Like Column but in reverse order.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Justify">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.Justify" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.Center">
+            <summary>
+            Whether an item should be packed around the center.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.Start">
+            <summary>
+            Whether an item should be packed at the start.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.End">
+            <summary>
+            Whether an item should be packed at the end.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.SpaceBetween">
+            <summary>
+            Whether items should be distributed evenly, the first item being at the start and the last item being at the end.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.SpaceAround">
+            <summary>
+            Whether items should be distributed evenly, the first and last items having a half-size space.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Justify.SpaceEvenly">
+            <summary>
+            Whether items should be distributed evenly, all items having equal space around them.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Position">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.Position" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Position.Relative">
+            <summary>
+            Whether the item's frame will be determined by the flex rules of the layout system.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Position.Absolute">
+            <summary>
+            Whether the item's frame will be determined by fixed position values (<see cref="P:Microsoft.Maui.Controls.Flex.Item.Left" />, <see cref="P:Microsoft.Maui.Controls.Flex.Item.Right" />, <see cref="P:Microsoft.Maui.Controls.Flex.Item.Top" /> and <see cref="P:Microsoft.Maui.Controls.Flex.Item.Bottom" />).
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Wrap">
+            <summary>
+            Values for <see cref="P:Microsoft.Maui.Controls.Flex.Item.Wrap" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Wrap.NoWrap">
+            <summary>
+            Whether items are laid out in a single line.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Wrap.Wrap">
+            <summary>
+            Whether items are laid out in multiple lines if needed.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Wrap.WrapReverse">
+            <summary>
+            Like Wrap but in reverse order.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Basis">
+            <summary>
+            Value for <see cref="P:Microsoft.Maui.Controls.Flex.Item.Basis" />.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.Flex.Basis.Auto">
+            <summary>
+            Auto basis.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Basis.IsRelative">
+            <summary>
+            Whether the basis length is relative to parent's size.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Basis.IsAuto">
+            <summary>
+            Whether the basis is auto.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Basis.Length">
+            <summary>
+            Gets the length.
+            </summary>
+            <value>The length.</value>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.Flex.Basis.#ctor(System.Single,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Maui.Controls.Flex.Basis"/> struct.
+            </summary>
+            <param name="length">Length.</param>
+            <param name="isRelative">If set to <c>true</c> is relative.</param>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Flex.Item">
+            <summary>
+            An item with flexbox properties. Items can also contain other items and be enumerated.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Frame">
+            <summary>
+            Gets the frame (x, y, w, h).
+            </summary>
+            <value>The frame.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Parent">
+            <summary>The parent item.</summary>
+            <value>The parent item, or null if the item is a root item.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.AlignContent">
+            <summary>This property defines how the layout engine will distribute space between and around child items that have been laid out on multiple lines. This property is ignored if the root item does not have its <see cref="P:Microsoft.Maui.Controls.Flex.Item.Wrap" /> property set to Wrap or WrapReverse.</summary>
+            <remarks>The default value for this property is Stretch.</remarks>
+             <value>The content of the align.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.AlignItems">
+            <summary>This property defines how the layout engine will distribute space between and around child items along the cross-axis.</summary>
+            <value>The align items.</value>
+            <remarks>The default value for this property is Stretch.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.AlignSelf">
+            <summary>This property defines how the layout engine will distribute space between and around child items for a specific child along the cross-axis. If this property is set to Auto on a child item, the parent's value for <see cref="P:Microsoft.Maui.Controls.Flex.Item.AlignItems" /> will be used instead.</summary>
+            <value>The align self.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Basis">
+            <summary>This property defines the initial main-axis dimension of the item. If <see cref="P:Microsoft.Maui.Controls.Flex.Item.Direction" /> is row-based (horizontal), it will be used instead of <see cref="P:Microsoft.Maui.Controls.Flex.Item.Width" />, and if it's column-based (vertical), it will be used instead of <see cref="P:Microsoft.Maui.Controls.Flex.Item.Height" />.</summary>
+            <value>The basis.</value>
+            <remarks>The default value for this property is Auto.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Bottom">
+            <summary>This property defines the bottom edge absolute position of the item. It also defines the item's height if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Top" /> is also set and if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Height" /> isn't set. It is ignored if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Position" /> isn't set to Absolute.</summary>
+            <value>The value for the property.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Direction">
+            <summary>This property defines the direction and main-axis of child items. If set to Column (or ColumnReverse), the main-axis will be the y-axis and items will be stacked vertically. If set to Row (or RowReverse), the main-axis will be the x-axis and items will be stacked horizontally.</summary>
+            <value>Any value part of the<see cref="T:Microsoft.Maui.Controls.Flex.Direction" /> enumeration.</value>
+            <remarks>The default value for this property is Column.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Grow">
+            <summary>This property defines the grow factor of the item; the amount of available space it should use on the main-axis. If this property is set to 0, the item will not grow.</summary>
+            <value>The item grow factor.</value>
+            <remarks>The default value for this property is 0 (does not take any available space).</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Height">
+            <summary>This property defines the height size dimension of the item.</summary>
+            <value>The height size dimension.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.JustifyContent">
+            <summary>This property defines how the layout engine will distribute space between and around child items along the main-axis.</summary>
+            <value>Any value part of the<see cref="T:Microsoft.Maui.Controls.Flex.Align" /> enumeration, with the exception of Stretch and Auto.</value>
+            <remarks>The default value for this property is Start.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Left">
+            <summary>This property defines the left edge absolute position of the item.It also defines the item's width if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Right" /> is also set and if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Width" /> isn't set.It is ignored if <see cref = "P:Microsoft.Maui.Controls.Flex.Item.Position" /> isn't set to Absolute.</summary>
+            <value>The value for the property.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.MarginBottom">
+            <summary>This property defines the margin space required on the bottom edge of the item.</summary>
+            <value>The top edge margin space (negative values are allowed).</value>
+            <remarks>The default value for this property is 0.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.MarginLeft">
+            <summary>This property defines the margin space required on the left edge of the item.</summary>
+            <value>The top edge margin space (negative values are allowed).</value>
+            <remarks>The default value for this property is 0.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.MarginRight">
+            <summary>This property defines the margin space required on the right edge of the item.</summary>
+            <value>The top edge margin space (negative values are allowed).</value>
+            <remarks>The default value for this property is 0.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.MarginTop">
+            <summary>This property defines the margin space required on the top edge of the item.</summary>
+            <value>The top edge margin space (negative values are allowed).</value>
+            <remarks>The default value for this property is 0.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Order">
+            <summary>This property specifies whether this item should be laid out before or after other items in the container.Items are laid out based on the ascending value of this property.Items that have the same value for this property will be laid out in the order they were inserted.</summary>
+            <value>The item order (can be a negative, 0, or positive value).</value>
+            <remarks>The default value for this property is 0.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.PaddingBottom">
+            <summary>This property defines the height of the item's bottom edge padding space that should be used when laying out child items.</summary>
+            <value>The bottom edge padding space.Negative values are not allowed.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.PaddingLeft">
+            <summary>This property defines the height of the item's left edge padding space that should be used when laying out child items.</summary>
+            <value>The bottom edge padding space.Negative values are not allowed.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.PaddingRight">
+            <summary>This property defines the height of the item's right edge padding space that should be used when laying out child items.</summary>
+            <value>The bottom edge padding space.Negative values are not allowed.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.PaddingTop">
+            <summary>This property defines the height of the item's top edge padding space that should be used when laying out child items.</summary>
+            <value>The bottom edge padding space.Negative values are not allowed.</value>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Position">
+            <summary>This property defines whether the item should be positioned by the flexbox rules of the layout engine(Relative) or have an absolute fixed position (Absolute). If this property is set to Absolute, the<see cref="P:Microsoft.Maui.Controls.Flex.Item.Left" />, <see cref = "P:Microsoft.Maui.Controls.Flex.Item.Right" />, <see cref = "P:Microsoft.Maui.Controls.Flex.Item.Top" /> and <see cref= "P:Microsoft.Maui.Controls.Flex.Item.Bottom" /> properties will then be used to determine the item's fixed position in its container.</summary>
+            <value>Any value part of the<see cref="T:Microsoft.Maui.Controls.Flex.Position" /> enumeration.</value>
+            <remarks>The default value for this property is Relative</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Right">
+            <summary>This property defines the right edge absolute position of the item.It also defines the item's width if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Left" /> is also set and if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Width" /> isn't set.It is ignored if <see cref = "P:Microsoft.Maui.Controls.Flex.Item.Position" /> isn't set to Absolute.</summary>
+            <value>The value for the property.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Shrink">
+            <summary>This property defines the shrink factor of the item.In case the child items overflow the main-axis of the container, this factor will be used to determine how individual items should shrink so that all items can fill inside the container.If this property is set to 0, the item will not shrink.</summary>
+            <value>The item shrink factor.</value>
+            <remarks>The default value for this property is 1 (all items will shrink equally).</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Top">
+            <summary>This property defines the top edge absolute position of the item. It also defines the item's height if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Bottom" /> is also set and if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Height" /> isn't set. It is ignored if <see cref="P:Microsoft.Maui.Controls.Flex.Item.Position" /> isn't set to Absolute.</summary>
+            <value>The value for the property.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Width">
+            <summary>This property defines the width size dimension of the item.</summary>
+            <value>The width size dimension.</value>
+            <remarks>The default value for this property is NaN.</remarks>
+        </member>
+        <member name="P:Microsoft.Maui.Controls.Flex.Item.Wrap">
+            <summary>This property defines whether child items should be laid out in a single line(NoWrap) or multiple lines(Wrap or WrapReverse). If this property is set to Wrap or WrapReverse, <see cref = "P:Microsoft.Maui.Controls.Flex.Item.AlignContent" /> can then be used to specify how the lines should be distributed.</summary>
+            <value>Any value part of the<see cref="T:Microsoft.Maui.Controls.Flex.Wrap" /> enumeration.</value>
+            <remarks>The default value for this property is NoWrap.</remarks>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.Flex.Item.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Maui.Controls.Flex.Item"/> class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.Flex.Item.#ctor(System.Single,System.Single)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Maui.Controls.Flex.Item"/> class.
+            </summary>
+            <param name="width">Width.</param>
+            <param name="height">Height.</param>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.Grid.GridStructure">
+            <summary>
+            Creates a snapshot of the Grid row/column structure, optionally with measurement
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.Shapes.Matrix.CreateTranslation(System.Double,System.Double)">
+            <summary>
+            Sets the transformation to the given translation specified by the offset vector.
+            </summary>
+            <param name='offsetX'>The offset in X</param>
+            <param name='offsetY'>The offset in Y</param>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ListProxy.Contains(System.Object)">
+            <summary>
+                Gets whether or not the current window contains the <paramref name="item" />.
+            </summary>
+            <param name="item">The item to search for.</param>
+            <returns><c>true</c> if the item was found in a list or the current window, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ListProxy.IndexOf(System.Object)">
+            <summary>
+                Gets the index for the <paramref name="item" /> if in a list or the current window.
+            </summary>
+            <param name="item">The item to search for.</param>
+            <returns>The index of the item if in a list or the current window, -1 otherwise.</returns>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.ListView._refreshAllowed">
+            <summary>
+                Controls whether anything happens in BeginRefresh(), is set based on RefreshCommand.CanExecute
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.PlatformConfigurationRegistry`1">
+            <summary>
+            Helper that handles storing and lookup of platform specifics implementations
+            </summary>
+            <typeparam name="TElement">The Element type</typeparam>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.BlurEffectStyle.ExtraLight">
+            <summary>
+            Available in iOS 8.0 and later.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.BlurEffectStyle.Light">
+            <summary>
+            Available in iOS 8.0 and later.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific.BlurEffectStyle.Dark">
+            <summary>
+            Available in iOS 8.0 and later.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode.Inaccessible">
+            <summary>
+            Allows ListItems to have TapGestures. The Enter key and Narrator will not fire the ItemTapped event.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ListViewSelectionMode.Accessible">
+            <summary>
+            Allows the Enter key and Narrator to fire the ItemTapped event. ListItems cannot have TapGestures.
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Default">
+            <summary>
+            Default will place the Toolbar at the bottom of the screen on phones and
+            at the top of the screen on larger devices
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Top">
+            <summary>
+            Always place the Toolbar at the top of the screen
+            </summary>
+        </member>
+        <member name="F:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific.ToolbarPlacement.Bottom">
+            <summary>
+            Always place the Toolbar at the bottom of the screen
+            </summary>
+        </member>
+        <member name="T:Microsoft.Maui.Controls.RouteRequestBuilder">
+            <summary>
+            This attempts to locate the intended route trying to be navigated to
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.TableSectionBase`1.#ctor">
+            <summary>
+                Constructs a Section without an empty header.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.TableSectionBase`1.#ctor(System.String)">
+            <summary>
+                Constructs a Section with the specified header.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.TableSectionBase.#ctor">
+            <summary>
+                Constructs a Section without an empty header.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.TableSectionBase.#ctor(System.String)">
+            <summary>
+                Constructs a Section with the specified header.
+            </summary>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Comparer">
+            <summary>
+                Gets the equality comparer being used for <typeparamref name="TKey"/>.
+            </summary>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Item(System.Int32)">
+            <summary>
+                Gets the value at the specified index.
+            </summary>
+            <param name="index">The index to get the value at.</param>
+            <returns>The value at the specified index.</returns>
+            <exception cref="T:System.IndexOutOfRangeException">
+                <paramref name="index" /> is less than 0 or greater than
+                <see cref="P:Cadenza.Collections.OrderedDictionary`2.Count" />.
+            </exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.Clear">
+            <summary>
+                Clears the dictionary.
+            </summary>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Count">
+            <summary>
+                Gets the number of items in the dictionary.
+            </summary>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.Add(`0,`1)">
+            <summary>
+                Adds the <paramref name="key" /> and <paramref name="value" /> to the dictionary.
+            </summary>
+            <param name="key">The key to associate with the <paramref name="value" />.</param>
+            <param name="value">The value to add.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="key" /> already exists in the dictionary.</exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.ContainsKey(`0)">
+            <summary>
+                Gets whether or not <paramref name="key" /> is in the dictionary.
+            </summary>
+            <param name="key">The key to look for.</param>
+            <returns><c>true</c> if the key was found, <c>false</c> if not.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="key" /> is <c>null</c>.</exception>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Item(`0)">
+            <summary>
+                Gets or sets the value associated with <paramref name="key" />.
+            </summary>
+            <param name="key">The key to get or set the value for.</param>
+            <returns>The value associated with the key.</returns>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException"><paramref name="key" /> was not found attempting to get.</exception>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Keys">
+            <summary>
+                Gets a read only collection of keys in the dictionary.
+            </summary>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.Remove(`0)">
+            <summary>
+                Removes the key and associated value from the dictionary if found.
+            </summary>
+            <param name="key">The key to remove.</param>
+            <returns><c>true</c> if the key was found, <c>false</c> if not.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.TryGetValue(`0,`1@)">
+            <summary>
+                Attempts to get the <paramref name="value" /> for the <paramref name="key" />.
+            </summary>
+            <param name="key">The key to search for.</param>
+            <param name="value">The value, if found.</param>
+            <returns><c>true</c> if the key was found, <c>false</c> otherwise.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="key" /> is <c>null</c>.</exception>
+        </member>
+        <member name="P:Cadenza.Collections.OrderedDictionary`2.Values">
+            <summary>
+                Gets a read only collection of values in the dictionary.
+            </summary>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.RemoveAt(System.Int32)">
+            <summary>
+                Removes they key and associated value from the dictionary located at <paramref name="index" />.
+            </summary>
+            <param name="index">The index at which to remove an item.</param>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.ContainsValue(`1)">
+            <summary>
+                Gets whether or not <paramref name="value" /> is in the dictionary.
+            </summary>
+            <param name="value">The value to look for.</param>
+            <returns><c>true</c> if the value was found, <c>false</c> if not.</returns>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.IndexOf(`0)">
+            <summary>
+                Gets the index of <paramref name="key" />.
+            </summary>
+            <param name="key">The key to find the index of.</param>
+            <returns>-1 if the key was not found, the index otherwise.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.IndexOf(`0,System.Int32)">
+            <summary>
+                Gets the index of <paramref name="key" /> starting with <paramref name="startIndex" />.
+            </summary>
+            <param name="key">The key to find the index of.</param>
+            <param name="startIndex">The index to start the search at.</param>
+            <returns>-1 if the key was not found, the index otherwise.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="startIndex" /> is not within the valid range of indexes.</exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.IndexOf(`0,System.Int32,System.Int32)">
+            <summary>
+                Gets the index of <paramref name="key" /> between the range given by <paramref name="startIndex" /> and
+                <paramref name="count" />.
+            </summary>
+            <param name="key">The key to find the index of.</param>
+            <param name="startIndex">The index to start the search at.</param>
+            <param name="count">How many items to search, including the <paramref name="startIndex" />.</param>
+            <returns>-1 if the key was not found, the index otherwise.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="startIndex" /> is not within the valid range of indexes.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <paramref name="startIndex" /> and <paramref name="count" /> are not a
+                valid range.
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="count" /> is less than 0.</exception>
+        </member>
+        <member name="M:Cadenza.Collections.OrderedDictionary`2.Insert(System.Int32,`0,`1)">
+            <summary>
+                Inserts the <paramref name="key" /> and <paramref name="value" /> at the specified index.
+            </summary>
+            <param name="index">The index to insert the key and value at.</param>
+            <param name="key">The key to assicate with the <paramref name="value" />.</param>
+            <param name="value">The value to insert.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="key" /> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <paramref name="index" /> is less than 0 or greater than
+                <see cref="P:Cadenza.Collections.OrderedDictionary`2.Count" />
+            </exception>
+        </member>
+        <member name="T:ThisAssembly">
+            <summary>Provides access to the current assembly information.</summary>
+        </member>
+        <member name="T:ThisAssembly.Git">
+            <summary>Provides access to the git information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirty">
+            <summary>IsDirty: true</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.IsDirtyString">
+            <summary>IsDirtyString: true</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.RepositoryUrl">
+            <summary>Repository URL: https://github.com/dotnet/maui</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Branch">
+            <summary>Branch: 6.0.1xx-preview5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commit">
+            <summary>Commit: 5ee505113</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Sha">
+            <summary>Sha: 5ee5051138dc536dff179f6e2591b218d560cd46</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.CommitDate">
+            <summary>Commit date: 2021-06-15T21:00:10+02:00</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Commits">
+            <summary>Commits on top of base version: 25</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.Tag">
+            <summary>Tag: </summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseTag">
+            <summary>Base tag: </summary>
+        </member>
+        <member name="T:ThisAssembly.Git.BaseVersion">
+            <summary>Provides access to the base version information used to determine the <see cref="T:ThisAssembly.Git.SemVer" />.</summary>      
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Major">
+            <summary>Major: 6</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.BaseVersion.Patch">
+            <summary>Patch: 100</summary>
+        </member>
+        <member name="T:ThisAssembly.Git.SemVer">
+            <summary>Provides access to SemVer information for the current assembly.</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Major">
+            <summary>Major: 6</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Minor">
+            <summary>Minor: 0</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Patch">
+            <summary>Patch: 125</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Label">
+            <summary>Label: preview.5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.DashLabel">
+            <summary>Label with dash prefix: -preview.5</summary>
+        </member>
+        <member name="F:ThisAssembly.Git.SemVer.Source">
+            <summary>Source: File</summary>
+        </member>
+    </members>
+</doc>

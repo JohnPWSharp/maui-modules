@@ -1,0 +1,124 @@
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\bin\x64\Debug\AppxContent\Microsoft.Internal.FrameworkUdk.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\bin\x64\Debug\AppxContent\Microsoft.ui.xaml.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\OpenSans-Regular.ttf
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Windows\App.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LargeTile.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LargeTile.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LargeTile.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LargeTile.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LargeTile.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SmallTile.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SmallTile.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SmallTile.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SmallTile.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SmallTile.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SplashScreen.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SplashScreen.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SplashScreen.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SplashScreen.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\LockScreenLogo.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\SplashScreen.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square150x150Logo.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square150x150Logo.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square150x150Logo.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square150x150Logo.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square150x150Logo.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-unplated_targetsize-16.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-unplated_targetsize-256.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-unplated_targetsize-32.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.altform-unplated_targetsize-48.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-16.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-24.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-256.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-32.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Square44x44Logo.targetsize-48.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\StoreLogo.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\StoreLogo.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\StoreLogo.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\StoreLogo.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\StoreLogo.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Wide310x150Logo.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Wide310x150Logo.scale-125.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Wide310x150Logo.scale-150.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\Images\Wide310x150Logo.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\bin\x64\Debug\resources.pri
+C:\Users\User\.nuget\packages\microsoft.extensions.configuration\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.configuration.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.0-preview.4.21253.7\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.fileproviders.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.hosting.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\.nuget\packages\microsoft.extensions.primitives\6.0.0-preview.4.21253.7\lib\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll
+C:\Users\User\.nuget\packages\microsoft.maui.controls\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.dll
+C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Compatibility.dll
+C:\Users\User\.nuget\packages\microsoft.maui.controls.xaml\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Xaml.dll
+C:\Users\User\.nuget\packages\microsoft.maui.core\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.dll
+C:\Users\User\.nuget\packages\microsoft.maui.essentials\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Essentials.dll
+C:\Users\User\.nuget\packages\microsoft.maui.graphics\6.0.100-preview.4.120\lib\netstandard2.1\Microsoft.Maui.Graphics.dll
+C:\Users\User\.nuget\packages\microsoft.projectreunion.foundation\0.5.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\User\.nuget\packages\microsoft.projectreunion.winui\0.5.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\User\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.Resources.dll
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.dll
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.Core.dll
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.dll
+C:\Users\User\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll
+C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-arm64\native\Microsoft.Graphics.Canvas.dll
+C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll
+C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll
+C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.16\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.16\lib\WinRT.Runtime.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\AppxContent\Microsoft.Internal.FrameworkUdk.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\AppxContent\Microsoft.ui.xaml.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.deps.json
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.runtimeconfig.dev.json
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\Windows\App.xbf
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\sp\fonts\OpenSans-Regular.ttf
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-100.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-200.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-400.png
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\apphost.exe
+C:\Users\User\.nuget\packages\microsoft.maui.controls\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.pdb
+C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Compatibility.pdb
+C:\Users\User\.nuget\packages\microsoft.maui.controls.xaml\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Xaml.pdb
+C:\Users\User\.nuget\packages\microsoft.maui.core\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.pdb
+C:\Users\User\.nuget\packages\microsoft.maui.essentials\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Essentials.pdb
+C:\Users\User\.nuget\packages\microsoft.maui.graphics\6.0.100-preview.4.120\lib\netstandard2.1\Microsoft.Maui.Graphics.pdb
+C:\Users\User\.nuget\packages\microsoft.projectreunion.foundation\0.5.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.pdb
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.Resources.pdb
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.pdb
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.Core.pdb
+C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.pdb
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.runtimeconfig.json
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.dll
+C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.pdb

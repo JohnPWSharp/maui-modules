@@ -10,7 +10,8 @@ namespace PartsClient.Data
 {
     public class PartsManager
     {
-        static readonly string BaseAddress = "{Url from before}";
+        //static readonly string BaseAddress = "{Url from before}";
+        static readonly string BaseAddress = "https://mslearnbookserver2559419090.azurewebsites.net/";
         static readonly string Url = $"{BaseAddress}/api/parts/";
         private string authorizationKey;
 
@@ -19,6 +20,7 @@ namespace PartsClient.Data
             HttpClient client = new HttpClient();
             if (string.IsNullOrEmpty(authorizationKey))
             {
+                client.GetStringAsync(Url + "/login");
                 authorizationKey = await client.GetStringAsync(Url + "/login");
                 authorizationKey = JsonConvert.DeserializeObject<string>(authorizationKey);
             }

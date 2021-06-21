@@ -1,0 +1,1 @@
+<resources><item name="nav_host_fragment_container" type="id" /><declare-styleable name="DialogFragmentNavigator"><attr name="android:name" /></declare-styleable><declare-styleable name="FragmentNavigator"><attr name="android:name" /></declare-styleable><declare-styleable name="NavHostFragment"><attr format="boolean" name="defaultNavHost" /></declare-styleable></resources>

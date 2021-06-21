@@ -1,0 +1,9 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PartsClient.WinUI
+build_property.ProjectDir = C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\

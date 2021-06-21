@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JABBERWOCKY</Machine>
+    <WindowsUser>User</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>919dc1f9-17a9-48b3-81f8-0b8016bdfbf7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=shane</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DB62C72233479DDCC65A9CC40CD665D2B53B86C52D006E01FD476497203807D3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>919dc1f9-17a9-48b3-81f8-0b8016bdfbf7_1.0.0.0_x64__cbkmbb0pbdya4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>919dc1f9-17a9-48b3-81f8-0b8016bdfbf7_cbkmbb0pbdya4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>919dc1f9-17a9-48b3-81f8-0b8016bdfbf7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=shane</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-14T11:44:28.336</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\bin\x64\Debug\AppxContent\Microsoft.Internal.FrameworkUdk.dll">
+      <PackagePath>Microsoft.Internal.FrameworkUdk.dll</PackagePath>
+      <Modified>2021-04-23T16:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\bin\x64\Debug\AppxContent\Microsoft.ui.xaml.dll">
+      <PackagePath>Microsoft.ui.xaml.dll</PackagePath>
+      <Modified>2021-04-23T16:14:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-400.png">
+      <PackagePath>Assets\appicon.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-200.png">
+      <PackagePath>Assets\appicon.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appicon.scale-100.png">
+      <PackagePath>Assets\appicon.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-400.png">
+      <PackagePath>Assets\appiconfg.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-200.png">
+      <PackagePath>Assets\appiconfg.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\appiconfg.scale-100.png">
+      <PackagePath>Assets\appiconfg.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-400.png">
+      <PackagePath>Assets\dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-200.png">
+      <PackagePath>Assets\dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\dotnet_bot.scale-100.png">
+      <PackagePath>Assets\dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Assets\OpenSans-Regular.ttf">
+      <PackagePath>Assets\OpenSans-Regular.ttf</PackagePath>
+      <Modified>2021-06-10T09:32:31.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\Windows\App.xbf">
+      <PackagePath>Windows\App.xbf</PackagePath>
+      <Modified>2021-06-14T11:39:14.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x64\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2020-12-02T05:31:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-06-10T09:32:31.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:31.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-06-10T09:32:32.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 %28Package%29\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-06-14T11:39:21.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.configuration\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2021-05-03T19:03:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.configuration.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2021-05-03T19:00:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.0-preview.4.21253.7\lib\netstandard2.1\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2021-05-03T19:02:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2021-05-03T19:00:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.fileproviders.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
+      <Modified>2021-05-03T19:02:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.hosting.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.1\Microsoft.Extensions.Hosting.Abstractions.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.Hosting.Abstractions.dll</PackagePath>
+      <Modified>2021-05-03T19:02:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0-preview.4.21253.7\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2021-05-03T19:00:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.extensions.primitives\6.0.0-preview.4.21253.7\lib\netcoreapp3.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2021-05-03T19:01:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2021-04-08T22:14:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2021-05-26T03:21:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.compatibility\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2021-05-26T03:20:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.controls.xaml\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2021-05-26T03:21:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.core\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.dll</PackagePath>
+      <Modified>2021-05-26T03:21:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.essentials\6.0.100-preview.4.634\lib\net6.0-windows10.0.18362\Microsoft.Maui.Essentials.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2021-05-26T03:22:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.maui.graphics\6.0.100-preview.4.120\lib\netstandard2.1\Microsoft.Maui.Graphics.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2021-05-11T20:49:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.projectreunion.foundation\0.5.6\lib\net5.0-windows\Microsoft.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2021-04-23T16:51:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.projectreunion.winui\0.5.6\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.WinUI.dll</PackagePath>
+      <Modified>2021-04-23T16:51:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>PartsClient.WinUI3\Newtonsoft.Json.dll</PackagePath>
+      <Modified>2019-04-22T00:06:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.Resources.dll">
+      <PackagePath>PartsClient.WinUI3\Esp.Resources.dll</PackagePath>
+      <Modified>2021-05-25T12:12:09.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.dll">
+      <PackagePath>PartsClient.WinUI3\Esp.dll</PackagePath>
+      <Modified>2021-04-22T21:57:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.Core.dll">
+      <PackagePath>PartsClient.WinUI3\Reloadify3000.Core.dll</PackagePath>
+      <Modified>2021-04-22T21:57:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Reloadify3000.dll">
+      <PackagePath>PartsClient.WinUI3\Reloadify3000.dll</PackagePath>
+      <Modified>2021-04-22T21:57:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\system.codedom\4.7.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>PartsClient.WinUI3\System.CodeDom.dll</PackagePath>
+      <Modified>2019-11-15T08:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-arm64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>PartsClient.WinUI3\runtimes\win10-arm64\native\Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2021-04-08T22:20:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>PartsClient.WinUI3\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2021-04-08T22:19:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.graphics.win2d\0.5.0.13\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>PartsClient.WinUI3\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2021-04-08T22:16:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.16\lib\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2021-04-13T20:26:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\User\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.16\lib\WinRT.Runtime.dll">
+      <PackagePath>PartsClient.WinUI3\WinRT.Runtime.dll</PackagePath>
+      <Modified>2021-04-13T20:26:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\AppxContent\Microsoft.Internal.FrameworkUdk.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.Internal.FrameworkUdk.dll</PackagePath>
+      <Modified>2021-04-23T16:14:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\AppxContent\Microsoft.ui.xaml.dll">
+      <PackagePath>PartsClient.WinUI3\Microsoft.ui.xaml.dll</PackagePath>
+      <Modified>2021-04-23T16:14:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.deps.json">
+      <PackagePath>PartsClient.WinUI3\PartsClient.WinUI3.deps.json</PackagePath>
+      <Modified>2021-06-14T11:39:14.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.runtimeconfig.dev.json">
+      <PackagePath>PartsClient.WinUI3\PartsClient.WinUI3.runtimeconfig.dev.json</PackagePath>
+      <Modified>2021-06-14T11:39:14.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\Windows\App.xbf">
+      <PackagePath>PartsClient.WinUI3\Windows\App.xbf</PackagePath>
+      <Modified>2021-06-14T11:39:14.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\sp\fonts\OpenSans-Regular.ttf">
+      <PackagePath>PartsClient.WinUI3\Assets\OpenSans-Regular.ttf</PackagePath>
+      <Modified>2021-06-10T09:32:31.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-100.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appicon.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-200.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appicon.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appicon.scale-400.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appicon.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-100.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appiconfg.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-200.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appiconfg.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\appiconfg.scale-400.png">
+      <PackagePath>PartsClient.WinUI3\Assets\appiconfg.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-100.png">
+      <PackagePath>PartsClient.WinUI3\Assets\dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2021-06-14T11:39:10.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-200.png">
+      <PackagePath>PartsClient.WinUI3\Assets\dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\resizetize\r\Assets\dotnet_bot.scale-400.png">
+      <PackagePath>PartsClient.WinUI3\Assets\dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2021-06-14T11:39:11.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\obj\x64\Debug\net6.0-windows10.0.19041\apphost.exe">
+      <PackagePath>PartsClient.WinUI3\PartsClient.WinUI3.exe</PackagePath>
+      <Modified>2021-06-14T11:44:26.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.runtimeconfig.json">
+      <PackagePath>PartsClient.WinUI3\PartsClient.WinUI3.runtimeconfig.json</PackagePath>
+      <Modified>2021-06-14T11:39:14.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3\bin\x64\Debug\net6.0-windows10.0.19041\PartsClient.WinUI3.dll">
+      <PackagePath>PartsClient.WinUI3\PartsClient.WinUI3.dll</PackagePath>
+      <Modified>2021-06-14T11:44:26.426</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5.appx">
+      <Name>Microsoft.ProjectReunion.0.5</Name>
+      <Version>0.52104.23000.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5, MinVersion = 0.52104.23000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5.appx">
+      <Name>Microsoft.ProjectReunion.0.5</Name>
+      <Version>0.52104.23000.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5, MinVersion = 0.52104.23000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x86\Microsoft.ProjectReunion.0.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x64\Microsoft.ProjectReunion.0.5.appx">
+      <Name>Microsoft.ProjectReunion.0.5</Name>
+      <Version>0.52104.23000.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5, MinVersion = 0.52104.23000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-x64\Microsoft.ProjectReunion.0.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-arm64\Microsoft.ProjectReunion.0.5.appx">
+      <Name>Microsoft.ProjectReunion.0.5</Name>
+      <Version>0.52104.23000.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.ProjectReunion.0.5, MinVersion = 0.52104.23000.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\User\.nuget\packages\microsoft.projectreunion\0.5.6\build\..\tools\AppX\win10-arm64\Microsoft.ProjectReunion.0.5.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\arm\Microsoft.VCLibs.arm.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.29231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.29231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

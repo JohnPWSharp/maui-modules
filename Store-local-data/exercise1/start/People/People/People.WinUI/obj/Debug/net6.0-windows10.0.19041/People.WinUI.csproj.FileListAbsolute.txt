@@ -1,9 +1,0 @@
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\People.WinUI.csproj.AssemblyReference.cache
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.g.i.cs
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.g.cs
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\XamlTypeInfo.g.cs
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.xaml
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\Windows\App.xbf
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\XamlSaveStateFile.xml
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\reunion.merged.g.manifest
-C:\Temp\repos\maui-modules\Store-local-data\exercise1\start\People\People\People.WinUI\obj\Debug\net6.0-windows10.0.19041\People.WinUI.GeneratedMSBuildEditorConfig.editorconfig

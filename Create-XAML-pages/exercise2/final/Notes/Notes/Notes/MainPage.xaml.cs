@@ -8,7 +8,7 @@ namespace Notes
 {
 	public partial class MainPage : ContentPage, IPage
 	{
-        string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
+        string fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
         Editor editor;
 
 		public MainPage()
@@ -47,22 +47,22 @@ namespace Notes
             Grid.SetColumn(deleteButton, 1);
             buttonsGrid.Children.Add(deleteButton);
 
-            if (File.Exists(_fileName))
+            if (File.Exists(fileName))
 			{
-				editor.Text = File.ReadAllText(_fileName);
+				editor.Text = File.ReadAllText(fileName);
 			}
 		}
 
 		void OnSaveButtonClicked(object sender, EventArgs e)
 		{
-			File.WriteAllText(_fileName, editor.Text);
+			File.WriteAllText(fileName, editor.Text);
 		}
 
 		void OnDeleteButtonClicked(object sender, EventArgs e)
 		{
-			if (File.Exists(_fileName))
+			if (File.Exists(fileName))
 			{
-				File.Delete(_fileName);
+				File.Delete(fileName);
 			}
 			editor.Text = string.Empty;
 		}

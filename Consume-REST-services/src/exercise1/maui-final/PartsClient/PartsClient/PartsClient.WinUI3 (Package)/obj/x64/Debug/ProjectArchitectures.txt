@@ -1,1 +1,0 @@
-C:\Work In Progress\Microsoft\M4181\repos\maui-modules\Consume-REST-services\src\exercise1\maui-final\PartsClient\PartsClient\PartsClient.WinUI3 (Package)\PartsClient.WinUI3 (Package).wapproj;x64

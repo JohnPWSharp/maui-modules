@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\bin\Debug\net6.0-windows10.0.19041\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-21T16:27:08.855</Modified>
+      <Modified>2021-06-24T09:16:13.228</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\bin\Debug\net6.0-windows10.0.19041\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-21T16:01:55.930</Modified>
+      <Modified>2021-06-24T09:16:13.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\bin\Debug\net6.0-windows10.0.19041\Notes.WinUI.runtimeconfig.json">
       <PackagePath>Notes.WinUI.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\bin\Debug\net6.0-windows10.0.19041\Notes.WinUI.dll">
       <PackagePath>Notes.WinUI.dll</PackagePath>
-      <Modified>2021-06-21T16:27:07.844</Modified>
+      <Modified>2021-06-24T09:16:12.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\obj\Debug\net6.0-windows10.0.19041\apphost.exe">
       <PackagePath>Notes.WinUI.exe</PackagePath>
-      <Modified>2021-06-21T16:27:08.663</Modified>
+      <Modified>2021-06-24T09:16:12.653</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Temp\repos\maui-modules\Create-XAML-pages\exercise2\start\Notes\Notes\Notes.WinUI\bin\Debug\net6.0-windows10.0.19041\Notes.WinUI.deps.json">
       <PackagePath>Notes.WinUI.deps.json</PackagePath>
@@ -148,7 +148,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.Resources.dll">
       <PackagePath>Esp.Resources.dll</PackagePath>
-      <Modified>2021-06-17T13:48:10.749</Modified>
+      <Modified>2021-06-23T16:59:27.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User\.nuget\packages\reloadify3000\1.0.6\lib\netstandard2.0\Esp.dll">
       <PackagePath>Esp.dll</PackagePath>

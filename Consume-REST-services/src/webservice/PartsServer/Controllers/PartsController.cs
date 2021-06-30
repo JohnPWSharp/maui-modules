@@ -25,8 +25,8 @@ namespace PartsService.Controllers
             return new JsonResult(UserParts);
         }
 
-        [HttpGet("{isbn}")]
-        public ActionResult Get(string isbn)
+        [HttpGet("{partid}")]
+        public ActionResult Get(string partid)
         {
             var authorized = CheckAuthorization();
             if (!authorized)
@@ -34,13 +34,13 @@ namespace PartsService.Controllers
                 return Unauthorized();
             }
 
-            if (string.IsNullOrEmpty(isbn))
+            if (string.IsNullOrEmpty(partid))
                 return this.BadRequest();
 
-            isbn = isbn.ToUpperInvariant();
-            Console.WriteLine($"GET /api/parts/{isbn}");
+            partid = partid.ToUpperInvariant();
+            Console.WriteLine($"GET /api/parts/{partid}");
             var userParts = UserParts;
-            var part = userParts.SingleOrDefault(x => x.PartID == isbn);
+            var part = userParts.SingleOrDefault(x => x.PartID == partid);
 
             if (part == null)
             {
@@ -52,8 +52,8 @@ namespace PartsService.Controllers
             }
         }
 
-        [HttpPut("{isbn}")]
-        public HttpResponseMessage Put(string isbn, [FromBody] Part part)
+        [HttpPut("{partid}")]
+        public HttpResponseMessage Put(string partid, [FromBody] Part part)
         {
             try
             {
@@ -73,12 +73,12 @@ namespace PartsService.Controllers
                     return new HttpResponseMessage(HttpStatusCode.BadRequest);
                 }
 
-                Console.WriteLine($"PUT /api/parts/{isbn}");
+                Console.WriteLine($"PUT /api/parts/{partid}");
                 Console.WriteLine(JsonSerializer.Serialize(part));
 
 
                 var userParts = UserParts;
-                var existingParts = userParts.SingleOrDefault(x => x.PartID == isbn);
+                var existingParts = userParts.SingleOrDefault(x => x.PartID == partid);
                 if (existingParts != null)
                 {
                     existingParts.Suppliers = part.Suppliers;
@@ -154,8 +154,8 @@ namespace PartsService.Controllers
         }
 
         [HttpDelete]
-        [Route("{isbn}")]
-        public HttpResponseMessage Delete(string isbn)
+        [Route("{partid}")]
+        public HttpResponseMessage Delete(string partid)
         {
             try
             {
@@ -166,14 +166,14 @@ namespace PartsService.Controllers
                 }
 
                 var userParts = UserParts;
-                var existingParts = userParts.SingleOrDefault(x => x.PartID == isbn);
+                var existingParts = userParts.SingleOrDefault(x => x.PartID == partid);
 
                 if (existingParts == null)
                 {
                     return new HttpResponseMessage(HttpStatusCode.NotFound);
                 }
-                Console.WriteLine($"POST /api/parts/{isbn}");
-                userParts.RemoveAll(x => x.PartID == isbn);
+                Console.WriteLine($"POST /api/parts/{partid}");
+                userParts.RemoveAll(x => x.PartID == partid);
 
                 return new HttpResponseMessage(HttpStatusCode.OK);
             }

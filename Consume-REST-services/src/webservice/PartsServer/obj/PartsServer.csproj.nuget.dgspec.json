@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj": {}
+    "C:\\Temp\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj": {}
   },
   "projects": {
-    "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj": {
+    "C:\\Temp\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
+        "projectUniqueName": "C:\\Temp\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
         "projectName": "PartsServer",
-        "projectPath": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
+        "projectPath": "C:\\Temp\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Work In Progress\\Microsoft\\M4181\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\obj\\",
+        "outputPath": "C:\\Temp\\repos\\maui-modules\\Consume-REST-services\\src\\webservice\\PartsServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -31,6 +31,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://aka.ms/maui-preview/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/azure-public/vside/_packaging/xamarin-impl/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
           "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
@@ -68,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3,8 +3,8 @@
   <PropertyGroup>
     <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
     <ActiveDebugFramework>net6.0-android</ActiveDebugFramework>
-    <SelectedDevice>pixel_3a_r_11_0_-_api_30</SelectedDevice>
-    <DefaultDevice>pixel_3a_r_11_0_-_api_30</DefaultDevice>
+    <SelectedDevice>pixel_2_r_11_0_-_api_30</SelectedDevice>
+    <DefaultDevice>pixel_2_r_11_0_-_api_30</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-ios|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <StackLayout Margin="30,60,30,30">
+        <Grid RowDefinitions="Auto,Auto,Auto">
+            <Label Grid.Row="0"
+                   Text="Notes"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+            <Editor x:Name="editor"
+                    Grid.Row="1"
+                    Placeholder="Enter your note"
+                    HeightRequest="100" />
+            <Grid Grid.Row="2" ColumnDefinitions="Auto, 30, Auto">
+                <Button Grid.Column="0"
+                        Text="Save" 
+                        WidthRequest="100"
+                        Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="2"
+                        Text="Delete" 
+                        WidthRequest="100"
+                        Clicked="OnDeleteButtonClicked" />
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

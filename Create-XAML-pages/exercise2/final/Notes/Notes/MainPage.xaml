@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:notes="clr-namespace:Notes"
+             x:Class="Notes.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+    <StackLayout Margin="30,60,30,30">
+        <Grid RowDefinitions="Auto,Auto,Auto">
+            <Label Grid.Row="0"
+                   Text="Notes"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold" 
+                   TextColor="{x:Static Member=notes:SharedResources.FontColor}"/>
+            <Editor x:Name="editor"
+                    Grid.Row="1"
+                    Placeholder="Enter your note"
+                    HeightRequest="{OnPlatform 100, Android=500, iOS=500}" 
+                    TextColor="{x:Static Member=notes:SharedResources.FontColor}" />
+            <Grid Grid.Row="2" ColumnDefinitions="Auto, 30, Auto">
+                <Button Grid.Column="0"
+                        Text="Save" 
+                        WidthRequest="100"
+                        TextColor="{x:Static Member=notes:SharedResources.FontColor}"
+                        BackgroundColor="{x:Static Member=notes:SharedResources.BackgroundColor}"
+                        Clicked="OnSaveButtonClicked" />
+                <Button Grid.Column="2"
+                        Text="Delete" 
+                        WidthRequest="100"
+                        TextColor="{x:Static Member=notes:SharedResources.FontColor}"
+                        BackgroundColor="{x:Static Member=notes:SharedResources.BackgroundColor}"
+                        Clicked="OnDeleteButtonClicked" />
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

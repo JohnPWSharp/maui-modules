@@ -1,0 +1,8 @@
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\PartsServer.exe
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\index.html
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\PartsServer.dll
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\PartsServer.deps.json
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\PartsServer.runtimeconfig.json
+C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\obj\Release\netcoreapp3.1\PubTmp\Out\PartsServer.pdb

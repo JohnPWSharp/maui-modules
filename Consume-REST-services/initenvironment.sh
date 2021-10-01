@@ -11,12 +11,6 @@
 ## Start
 declare moduleName=consume-rest-services
 
-# GitHub
-echo "declaring variables"
-
-# Change this URL
-gitrepo=https://github.com/JohnPWSharp/maui-modules/tree/master/Consume-REST-services
-
 # Figure out the name of the resource group to use
 declare resourceGroupName=""
 declare existingResourceGroup=$(az group list | jq '.[] | select(.tags."x-created-by"=="freelearning").name' --raw-output)
@@ -37,10 +31,9 @@ fi
 echo "Using Azure resource group $resourceGroupName."
 
 # Azure
-webappname=mslearnbookserver$RANDOM$RANDOM
+webappname=mslearnpartsserver$RANDOM$RANDOM
 
-git clone $gitrepo
-cd Consume-REST-services/src/webservice/PartsServer
+cd src/webservice/PartsServer
 az webapp up -n $webappname --resource-group $resourceGroupName --sku FREE --plan $webappname
 
 echo "Web app deployed! Here is the url to use in the app:"

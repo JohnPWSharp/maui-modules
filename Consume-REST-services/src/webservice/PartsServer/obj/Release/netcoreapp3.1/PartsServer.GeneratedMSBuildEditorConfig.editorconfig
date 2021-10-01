@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = PartsServer
+build_property.ProjectDir = C:\Work In Progress\Microsoft\M4181\maui-modules\Consume-REST-services\src\webservice\PartsServer\

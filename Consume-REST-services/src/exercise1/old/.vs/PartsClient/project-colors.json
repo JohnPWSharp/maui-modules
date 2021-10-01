@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6887c117-ecba-4be0-96e7-55ed9831a71b": {
+      "ProjectGuid": "6887c117-ecba-4be0-96e7-55ed9831a71b",
+      "DisplayName": "PartsClient.WinUI",
+      "ColorIndex": 0
+    },
+    "82fc34a7-9a17-493c-8507-8a59035e35c6": {
+      "ProjectGuid": "82fc34a7-9a17-493c-8507-8a59035e35c6",
+      "DisplayName": "PartsClient",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

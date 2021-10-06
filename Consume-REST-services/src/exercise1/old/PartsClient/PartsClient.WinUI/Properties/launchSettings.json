@@ -1,7 +1,0 @@
-{
-  "profiles": {
-    "PartsClient.WinUI": {
-      "commandName": "AppContainer"
-    }
-  }
-}

@@ -8,19 +8,22 @@
                    Text="Notes"
                    HorizontalOptions="Center"
                    FontAttributes="Bold" />
+            
             <Editor x:Name="editor"
                     Grid.Row="1"
                     Placeholder="Enter your note"
                     HeightRequest="100" />
+
             <Grid Grid.Row="2" ColumnDefinitions="Auto, 30, Auto">
                 <Button Grid.Column="0"
-                        Text="Save" 
-                        WidthRequest="100"
-                        Clicked="OnSaveButtonClicked" />
+                            Text="Save" 
+                            WidthRequest="100"
+                            Clicked="OnSaveButtonClicked" />
+                
                 <Button Grid.Column="2"
-                        Text="Delete" 
-                        WidthRequest="100"
-                        Clicked="OnDeleteButtonClicked" />
+                            Text="Delete" 
+                            WidthRequest="100"
+                            Clicked="OnDeleteButtonClicked" />
             </Grid>
         </Grid>
     </StackLayout>

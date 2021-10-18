@@ -1,8 +1,8 @@
-﻿using Microsoft.Maui;
+﻿using System;
+using System.IO;
+using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Essentials;
-using System;
-using System.IO;
 
 namespace Notes
 {
@@ -34,4 +34,4 @@ namespace Notes
             editor.Text = string.Empty;
         }
     }
-}
+    }

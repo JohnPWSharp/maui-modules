@@ -9,12 +9,14 @@
                    Text="Notes"
                    HorizontalOptions="Center"
                    FontAttributes="Bold" 
-                   TextColor="{x:Static Member=notes:SharedResources.FontColor}"/>
+                   TextColor="{x:Static Member=notes:SharedResources.FontColor}" />
+            
             <Editor x:Name="editor"
                     Grid.Row="1"
                     Placeholder="Enter your note"
                     HeightRequest="{OnPlatform 100, Android=500, iOS=500}" 
                     TextColor="{x:Static Member=notes:SharedResources.FontColor}" />
+
             <Grid Grid.Row="2" ColumnDefinitions="Auto, 30, Auto">
                 <Button Grid.Column="0"
                         Text="Save" 
@@ -22,6 +24,7 @@
                         TextColor="{x:Static Member=notes:SharedResources.FontColor}"
                         BackgroundColor="{x:Static Member=notes:SharedResources.BackgroundColor}"
                         Clicked="OnSaveButtonClicked" />
+                
                 <Button Grid.Column="2"
                         Text="Delete" 
                         WidthRequest="100"

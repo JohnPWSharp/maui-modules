@@ -5,13 +5,13 @@ using Application = Microsoft.Maui.Controls.Application;
 
 namespace TipCalculator
 {
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
+	public partial class App : Application
+	{
+		public App()
+		{
+			InitializeComponent();
 
-            MainPage = new NavigationPage(new StandardTipPage());
-        }
-    }
+			MainPage = new NavigationPage(new StandardTipPage());
+		}
+	}
 }

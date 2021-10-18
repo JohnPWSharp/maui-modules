@@ -22,14 +22,14 @@
                 <Setter Property="Padding" Value="14,10" />
             </Style>
 
-            <x:Int32 x:Key="fontSize">22</x:Int32>
+            <x:String x:Key="fontSize">22</x:String>
             <Style x:Key="baseLabelStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="{StaticResource fontSize}" />
             </Style>
             <Style x:Key="infoLabelStyle" BasedOn="{StaticResource baseLabelStyle}" TargetType="Label">
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>
-            
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

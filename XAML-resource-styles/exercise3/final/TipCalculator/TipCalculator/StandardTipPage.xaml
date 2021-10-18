@@ -3,12 +3,12 @@
              x:Class="TipCalculator.StandardTipPage"
              Title="Custom Tip"
              BackgroundColor="{DynamicResource SecondaryColor}">
-
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor">#C0C0C0</Color>
             <Color x:Key="fgColor">#0000AD</Color>
-            <x:Int32 x:Key="fontSize">22</x:Int32>
+            <x:String x:Key="fontSize">22</x:String>
             <Style x:Key="baseLabelStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="{StaticResource fontSize}" />
             </Style>

@@ -3,7 +3,7 @@
              x:Class="TipCalculator.StandardTipPage"
              Title="Custom Tip"
              BackgroundColor="{DynamicResource SecondaryColor}">
-
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="bgColor">#C0C0C0</Color>

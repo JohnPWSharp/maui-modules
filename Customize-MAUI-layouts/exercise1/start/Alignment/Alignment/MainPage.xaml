@@ -1,0 +1,28 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Alignment"
+             x:Class="Alignment.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <StackLayout Padding="0,20,0,0" Orientation="Vertical">
+
+        <StackLayout Orientation="Horizontal" HeightRequest="50">
+            <Label Text="Horizontal" VerticalOptions="Center" />
+            <Button Text="Start"  Clicked="OnHorizontalStartClicked"  />
+            <Button Text="Center" Clicked="OnHorizontalCenterClicked" />
+            <Button Text="End"    Clicked="OnHorizontalEndClicked"    />
+            <Button Text="Fill"   Clicked="OnHorizontalFillClicked"   />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="0,0,0,10" HeightRequest="50">
+            <Label Text="Vertical" VerticalOptions="Center" />
+            <Button Text="Start"  Clicked="OnVerticalStartClicked"  />
+            <Button Text="Center" Clicked="OnVerticalCenterClicked" />
+            <Button Text="End"    Clicked="OnVerticalEndClicked"    />
+            <Button Text="Fill"   Clicked="OnVerticalFillClicked"   />
+        </StackLayout>
+
+        <Label x:Name="target" BackgroundColor="Silver" Text="Hello" HeightRequest="150" />
+
+    </StackLayout>
+</ContentPage>

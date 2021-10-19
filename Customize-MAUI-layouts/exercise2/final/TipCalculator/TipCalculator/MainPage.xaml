@@ -1,0 +1,42 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TipCalculator"
+             x:Class="TipCalculator.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             Padding="40">
+    <StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="10">
+            <Label Text="Bill" VerticalOptions="Center" WidthRequest="100"/>
+            <Entry x:Name="billInput" Placeholder="Enter Amount" Keyboard="Numeric"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="0,20,0,0" Spacing="10">
+            <Label Text="Tip" WidthRequest="100"  />
+            <Label x:Name="tipOutput" Text="0.00" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="10">
+            <Label Text="Total" WidthRequest="100"/>
+            <Label x:Name="totalOutput" Text="0.00" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand" Spacing="10">
+            <Label Text="Tip Percentage" WidthRequest="100"/>
+            <Label x:Name="tipPercent" Text="15%" />
+        </StackLayout>
+                
+        <Slider x:Name="tipPercentSlider" Minimum="0" Maximum="100" Value="15"/>
+
+        <StackLayout Orientation="Horizontal" Margin="0,20,0,0" Spacing="10">
+            <Button Text="15%" WidthRequest="150" HorizontalOptions="CenterAndExpand" Clicked="OnNormalTip" />
+            <Button Text="20%" WidthRequest="150" HorizontalOptions="CenterAndExpand" Clicked="OnGenerousTip" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Margin="0,20,0,0" Spacing="10">
+            <Button x:Name="roundDown" WidthRequest="150" HorizontalOptions="CenterAndExpand" Text="Round Down" />
+            <Button x:Name="roundUp"   WidthRequest="150" HorizontalOptions="CenterAndExpand" Text="Round Up" />
+        </StackLayout>
+        
+    </StackLayout>
+</ContentPage>

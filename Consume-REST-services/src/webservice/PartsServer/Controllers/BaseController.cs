@@ -16,7 +16,7 @@ namespace PartsService.Controllers
                 {
                     return null;
                 }
-                
+
                 if (!PartsFactory.Parts.ContainsKey(this.AuthorizationToken))
                 {
                     return null;
@@ -27,6 +27,7 @@ namespace PartsService.Controllers
                 return result.Item2;
             }
         }
+
         protected bool CheckAuthorization()
         {
             PartsFactory.ClearStaleData();
@@ -38,7 +39,7 @@ namespace PartsService.Controllers
                 {
                     if (string.IsNullOrWhiteSpace(this.AuthorizationToken))
                     {
-                        ctx.Response.StatusCode = (int) HttpStatusCode.Forbidden;
+                        ctx.Response.StatusCode = (int)HttpStatusCode.Forbidden;
                         return false;
                     }
                 }

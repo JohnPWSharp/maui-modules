@@ -96,19 +96,19 @@ namespace PartsService.Controllers
         }
 
         [HttpPost]
-        public HttpResponseMessage Post([FromBody] Part part)
+        public ActionResult Post([FromBody] Part part)
         {
             try
             {
                 var authorized = CheckAuthorization();
                 if (!authorized)
                 {
-                    return new HttpResponseMessage(HttpStatusCode.Unauthorized);
+                    return this.Unauthorized();
                 }
 
                 if (!string.IsNullOrWhiteSpace(part.PartID))
                 {
-                    return new HttpResponseMessage(HttpStatusCode.BadRequest);
+                    return this.BadRequest();
                 }
                 Console.WriteLine($"POST /api/parts");
                 Console.WriteLine(JsonSerializer.Serialize(part));
@@ -117,39 +117,23 @@ namespace PartsService.Controllers
 
                 if (!ModelState.IsValid)
                 {
-                    return new HttpResponseMessage(HttpStatusCode.BadRequest);
+                    return this.BadRequest();
                 }
 
                 var userParts = UserParts;
 
-                if(userParts.Count >= 10)
-                {
-                    return new HttpResponseMessage(HttpStatusCode.TooManyRequests);
-                }
-
                 if (userParts.Any(x => x.PartID == part.PartID))
                 {
-                    return new HttpResponseMessage(HttpStatusCode.Conflict);
+                    return this.Conflict();                
                 }
 
                 userParts.Add(part);
 
-                var json = JsonSerializer.Serialize(part);
-                
-                HttpContext.Response.ContentType = "application/json";
-                var resp = new HttpResponseMessage(HttpStatusCode.Created)
-                {
-                    Content = new StringContent(json)
-                };
-
-                resp.Headers.Location = new UriBuilder(Request.Scheme, Request.Host.Host, Request.Host.Port ?? -1, part.PartID).Uri;
-
-                return resp;
+                return this.Ok(part);
             }
             catch (Exception ex)
             {
-                return new HttpResponseMessage(HttpStatusCode.InternalServerError);
-
+                return this.Problem("Internal server error");
             }
         }
 

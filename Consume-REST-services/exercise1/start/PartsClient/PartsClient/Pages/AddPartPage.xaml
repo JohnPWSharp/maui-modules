@@ -1,0 +1,84 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PartsClient.Pages.AddPartPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <SwipeView>
+        <SwipeView.LeftItems>
+            <SwipeItems>
+                <SwipeItem Text="Clear" 
+                           BackgroundColor="PaleVioletRed"
+                           Invoked="OnClearPart"/>
+                <SwipeItem Text="Save Changes" 
+                           BackgroundColor="PaleGreen"
+                           Invoked="OnAddPart"/>
+            </SwipeItems>
+        </SwipeView.LeftItems>
+        <GridLayout x:Name="PartsView" 
+                    RowDefinitions="Auto,Auto,Auto,auto,Auto" 
+                    ColumnDefinitions="80,*" 
+                    BackgroundColor="Azure" 
+                    Margin="30,20,30,30">
+            <Label Text="Part ID:" 
+                   TextColor="Black"
+                   GridLayout.Row="0"
+                   GridLayout.Column="0"
+                   HeightRequest="50"
+                   VerticalOptions="Center"/>
+            <Label Text="{Binding PartID}"
+                   TextColor="Black"
+                   GridLayout.Row="0"
+                   GridLayout.Column="1"
+                   VerticalOptions="Center"
+                   x:Name="PartIDField"/>
+            <Label Text="Part Name:" 
+                   TextColor="Black"
+                   GridLayout.Row="1"
+                   GridLayout.Column="0"
+                   HeightRequest="50"
+                   VerticalOptions="End"/>
+            <Entry x:Name="PartNameField" 
+                   Text="{Binding PartName}" 
+                   TextColor="Black"
+                   GridLayout.Row="1"
+                   GridLayout.Column="1"
+                   VerticalOptions="Start"/>
+            <Label Text="Part Type:"
+                   TextColor="Black"
+                   GridLayout.Row="2"
+                   GridLayout.Column="0"
+                   HeightRequest="50"
+                   VerticalOptions="End"/>
+            <Entry x:Name="PartTypeField"
+                   Text="{Binding PartType}" 
+                   TextColor="Black"
+                   GridLayout.Row="2"
+                   GridLayout.Column="1"
+                   VerticalOptions="Start"/>
+            <Label Text="Available:" 
+                   TextColor="Black"
+                   GridLayout.Row="3"
+                   GridLayout.Column="0"
+                   HeightRequest="50"
+                   VerticalOptions="End"/>
+            <Label Text="{Binding PartAvailableDate}" 
+                   TextColor="Black"
+                   GridLayout.Row="3"
+                   GridLayout.Column="1"
+                   VerticalOptions="End"
+                   x:Name="PartDateAvailableField"/>
+            <Label Text="Supplier:" 
+                   TextColor="Black"
+                   GridLayout.Row="4"
+                   GridLayout.Column="0"
+                   HeightRequest="50"
+                   VerticalOptions="End"/>
+            <Entry x:Name="PartSupplierField"
+                   Text="{Binding SupplierString}" 
+                   TextColor="Black"
+                   GridLayout.Row="4"
+                   GridLayout.Column="1"
+                   VerticalOptions="Start"/>
+        </GridLayout>
+    </SwipeView>
+</ContentPage>

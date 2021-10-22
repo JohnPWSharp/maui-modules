@@ -5,16 +5,16 @@ using Application = Microsoft.Maui.Controls.Application;
 
 namespace People
 {
-    public partial class App : Application
-    {
-        string dbPath => FileAccessHelper.GetLocalFilePath("people.db3");
-        public static PersonRepository PersonRepo { get; private set; }
+	public partial class App : Application
+	{
+		public static PersonRepository PersonRepo { get; private set; }
 
-        public App()
-        {
-            InitializeComponent();
-            PersonRepo = new PersonRepository(dbPath);
-            MainPage = new MainPage();
-        }
-    }
+		public App(MainPage page, PersonRepository repo)
+		{
+			InitializeComponent();
+
+			MainPage = page;
+			PersonRepo = repo;
+		}
+	}
 }

@@ -9,11 +9,11 @@ namespace People
     public class PersonRepository
     {
         public string StatusMessage { get; set; }
+        private SQLiteConnection conn;
 
         public PersonRepository(string dbPath)
         {
-            // TODO: Initialize a new SQLiteConnection
-            // TODO: Create the Person table
+            // TODO: Add code to initialize the repository
         }
 
         public void AddNewPerson(string name)
@@ -25,7 +25,7 @@ namespace People
                 if (string.IsNullOrEmpty(name))
                     throw new Exception("Valid name required");
 
-                // TODO: insert a new person into the Person table
+                // TODO: Insert the new person into the database
 
                 StatusMessage = string.Format("{0} record(s) added [Name: {1})", result, name);
             }
@@ -38,8 +38,7 @@ namespace People
 
         public List<Person> GetAllPeople()
         {
-            // TODO: return a list of people saved to the Person table in the database
-            throw new NotImplementedException();
+            // TODO: Retrieve a list of Person objects from the database into a list
         }
     }
 }

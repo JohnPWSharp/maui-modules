@@ -9,7 +9,6 @@ namespace People
     public class PersonRepository
     {
         public string StatusMessage { get; set; }
-
         private SQLiteConnection conn;
 
         public PersonRepository(string dbPath)

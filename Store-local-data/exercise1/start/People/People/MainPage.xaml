@@ -3,7 +3,7 @@
              x:Class="People.MainPage"
              BackgroundColor="{DynamicResource SecondaryColor}">
 
-    <Grid Padding="5" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Default">
+    <Grid Padding="5" RowSpacing="1" ColumnSpacing="1">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -35,9 +35,17 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell Height="30">
-                        <StackLayout Padding="5">
-                            <Label Text="{Binding Name}" />
-                        </StackLayout>
+                        <GridLayout Padding="5">
+                            <GridLayout.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </GridLayout.RowDefinitions>
+                            <GridLayout.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="2*" />
+                            </GridLayout.ColumnDefinitions>
+                            <Label GridLayout.Row="0" GridLayout.Column="0" Text="{Binding Id}" />
+                            <Label GridLayout.Row="0" GridLayout.Column="1" Text="{Binding Name}" />
+                        </GridLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

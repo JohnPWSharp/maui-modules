@@ -5,13 +5,17 @@ using Application = Microsoft.Maui.Controls.Application;
 
 namespace People
 {
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
+	public partial class App : Application
+	{
+		// TODO: Add a public static PersonRepository property
 
-            MainPage = new MainPage();
-        }
-    }
+		public App(MainPage page /* TODO: Add a parameter for the PersonRepository singleton object */ )
+		{
+			InitializeComponent();
+
+			MainPage = page;
+
+			// TODO: Initialize the PersonRepository property with the PersonRespository singleton object
+		}
+	}
 }

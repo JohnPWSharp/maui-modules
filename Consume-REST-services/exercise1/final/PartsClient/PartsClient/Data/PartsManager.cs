@@ -18,7 +18,6 @@ namespace PartsClient.Data
             HttpClient client = new HttpClient();
             if (string.IsNullOrEmpty(authorizationKey))
             {
-                await client.GetStringAsync(Url + "/login");
                 authorizationKey = await client.GetStringAsync(Url + "/login");
                 authorizationKey = JsonSerializer.Deserialize<string>(authorizationKey);
             }

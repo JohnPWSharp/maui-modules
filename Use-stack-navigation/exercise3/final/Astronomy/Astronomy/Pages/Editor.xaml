@@ -2,11 +2,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.Editor">
 
-    <Grid ColumnDefinitions="*, *, *">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="DarkGray" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
         <Image Aspect="AspectFill" Grid.ColumnSpan="3" Source="starfield.png" />
         
-        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" Grid.Column="1" 
-              Grid.ColumnSpan="2"
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" 
               ColumnDefinitions="Auto, Auto"
               RowDefinitions="Auto, Auto, Auto, Auto, Auto, *, Auto, *">
             
@@ -17,9 +25,9 @@
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="3" HorizontalOptions="End" Text="Circumference:" />
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Age:" />
 
-            <Entry x:Name="entMass" FontSize="Medium" Grid.Row="2" Grid.Column="1" HeightRequest="50"/>
-            <Entry x:Name="entCircumference" FontSize="Medium" Grid.Row="3" Grid.Column="1" HeightRequest="50"/>
-            <Entry x:Name="entAge" FontSize="Medium" Grid.Row="4" Grid.Column="1" HeightRequest="50"/>
+            <Entry x:Name="entMass"  Grid.Row="2" Grid.Column="1" />
+            <Entry x:Name="entCircumference"  Grid.Row="3" Grid.Column="1"/>
+            <Entry x:Name="entAge" Grid.Row="4" Grid.Column="1"/>
 
             <Button Text="Save" Grid.Row="6" Grid.Column="0" Clicked="saveClicked" HeightRequest="75" WidthRequest="200"/>
             <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="CancelClicked" HeightRequest="75" WidthRequest="200"/>

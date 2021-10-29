@@ -32,5 +32,12 @@ namespace Astronomy.Pages
         {
             await Navigation.PopToRootAsync();
         }
+
+        private async void editClicked(object sender, EventArgs args)
+        {
+            NavigationPage editPage = new NavigationPage(new Editor(displayBody));
+            //await Navigation.PushModalAsync(editPage);
+            await Navigation.PushAsync(editPage);
+        }
     }
 }

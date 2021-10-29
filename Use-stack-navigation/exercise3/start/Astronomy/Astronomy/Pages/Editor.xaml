@@ -7,8 +7,10 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        
+        <Image Aspect="AspectFill" Grid.ColumnSpan="3" Source="starfield.png" />
+        
         <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" Grid.Column="1" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto" />
@@ -25,8 +27,6 @@
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-
-            <Image Aspect="AspectFill" Grid.RowSpan="8" Grid.ColumnSpan="2" Source="starfield.png" />
 
             <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
             <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />

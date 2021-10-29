@@ -2,32 +2,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.Editor">
 
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        
+    <Grid ColumnDefinitions="*, *, *">
         <Image Aspect="AspectFill" Grid.ColumnSpan="3" Source="starfield.png" />
         
-        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" Grid.Column="1" Grid.ColumnSpan="2">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto" />
-                <ColumnDefinition Width="auto" />
-            </Grid.ColumnDefinitions>
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" Grid.Column="1" 
+              Grid.ColumnSpan="2"
+              ColumnDefinitions="Auto, Auto"
+              RowDefinitions="Auto, Auto, Auto, Auto, Auto, *, Auto, *">
+            
             <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
             <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
 
@@ -40,7 +22,7 @@
             <Entry x:Name="entAge" FontSize="Medium" Grid.Row="4" Grid.Column="1" HeightRequest="50"/>
 
             <Button Text="Save" Grid.Row="6" Grid.Column="0" Clicked="saveClicked" HeightRequest="75" WidthRequest="200"/>
-            <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="cancelClicked" HeightRequest="75" WidthRequest="200"/>
+            <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="CancelClicked" HeightRequest="75" WidthRequest="200"/>
         </Grid>
     </Grid>
 </ContentPage>

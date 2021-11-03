@@ -5,7 +5,8 @@
             Title="Contoso Astronomy"
             BackgroundColor="Black"
             BarBackgroundColor="White"
-            BarTextColor="DarkBlue">
+            SelectedTabColor="DarkBlue"
+            UnselectedTabColor="LightGray">
 
     <TabbedPage.Children>
         <local:MoonPhasePage IconImageSource="moon.png"/>

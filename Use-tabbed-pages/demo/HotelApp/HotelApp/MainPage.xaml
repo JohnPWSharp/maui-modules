@@ -1,0 +1,25 @@
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="HotelApp.MainPage"
+            xmlns:pages="clr-namespace:HotelApp.Pages"
+            BackgroundColor="{DynamicResource SecondaryColor}"
+            BarBackgroundColor="{DynamicResource PrimaryColor}"
+            SelectedTabColor="White"
+            UnselectedTabColor="Gray">
+
+    <TabbedPage.Children>
+        <pages:HealthSpaPage Title="Health Spa"/>
+        <pages:RestaurantPage Title="Restaurant"/>
+        <pages:BusinessSuitePage Title="Business Suite"/>
+        <!--<NavigationPage Title="Make a Booking">
+            <x:Arguments>-->
+                <!--<ContentPage x:Name="MakeBooking" Title="Make a Booking">
+                    <StackLayout>
+                        <Button Text="Select a Room" Clicked="OnSelectRoom"/>
+                    </StackLayout>
+                </ContentPage>-->
+            <!--</x:Arguments>
+        </NavigationPage>-->
+        <pages:SelectRoomPage Title="Make a Booking"/>
+    </TabbedPage.Children>
+</TabbedPage>

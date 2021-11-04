@@ -14,11 +14,11 @@ namespace Astronomy
 		{
 			base.OnCreate(savedInstanceState);
 			Microsoft.Maui.Essentials.Platform.Init(this, savedInstanceState);
-			this.Window.AddFlags(Android.Views.WindowManagerFlags.LayoutNoLimits | Android.Views.WindowManagerFlags.Fullscreen);
-			this.Window.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.HideNavigation;
-			WindowCompat.SetDecorFitsSystemWindows(this.Window, false);
-			this.Window.InsetsController.Hide(WindowInsetsCompat.Type.SystemBars());
-			this.Window.InsetsController.SystemBarsBehavior = WindowInsetsControllerCompat.BehaviorShowTransientBarsBySwipe;
+			//this.Window.AddFlags(Android.Views.WindowManagerFlags.LayoutNoLimits | Android.Views.WindowManagerFlags.Fullscreen);
+			//this.Window.DecorView.SystemUiVisibility = (StatusBarVisibility)SystemUiFlags.HideNavigation;
+			//WindowCompat.SetDecorFitsSystemWindows(this.Window, false);
+			//this.Window.InsetsController.Hide(WindowInsetsCompat.Type.SystemBars());
+			//this.Window.InsetsController.SystemBarsBehavior = WindowInsetsControllerCompat.BehaviorShowTransientBarsBySwipe;
 		}
 	}
 }

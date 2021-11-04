@@ -1,0 +1,32 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Pages.SelectRoomPage"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             Title="Make a Booking">
+
+    <Grid RowSpacing="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Text="Room type:" />
+        <Picker Grid.Column="1" Grid.Row="0" WidthRequest="200">
+            <Picker.Items>
+                <x:String>Standard</x:String>
+                <x:String>Deluxe</x:String>
+                <x:String>Executive</x:String>
+            </Picker.Items>
+        </Picker>
+        
+        <Label Grid.Column="0" Grid.Row="1" Text="Occupancy:"/>
+        <Slider Grid.Column="1" Grid.Row="1" Maximum="4" />
+
+        <Button Grid.Column="0" Grid.Row="2" Text="Provide Contact Details" Clicked="OnProvideContactDetails"/>
+    </Grid>
+</ContentPage>

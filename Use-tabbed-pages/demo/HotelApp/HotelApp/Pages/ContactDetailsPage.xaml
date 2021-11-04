@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Pages.ContactDetailsPage"
+             BackgroundColor="{DynamicResource SecondaryColor}"
+             Title="Enter Contact Details">
+
+    <Grid RowSpacing="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Text="Name:" />
+        <Editor Grid.Column="1" Grid.Row="0" WidthRequest="200"/>
+
+        <Label Grid.Column="0" Grid.Row="1" Text="Address:" />
+        <Editor Grid.Column="1" Grid.Row="1" WidthRequest="200"/>
+
+        <Label Grid.Column="0" Grid.Row="2" Text="Telephone:" />
+        <Editor Grid.Column="1" Grid.Row="2" WidthRequest="200" />
+
+        <Button Grid.Column="0" Grid.Row="3" Text="Make reservation" Clicked="OnMakeReservation"/>
+    </Grid>
+</ContentPage>

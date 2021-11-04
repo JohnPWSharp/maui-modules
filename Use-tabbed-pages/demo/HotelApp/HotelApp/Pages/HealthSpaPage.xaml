@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelApp.Pages.HealthSpaPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <VerticalStackLayout>
+        <Label Text="Health Spa layout page goes here" FontAttributes="Italic" FontSize="Large"/>
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -14,17 +14,9 @@
     <StackLayout Padding="10">
         <Label x:Name="lblDate" WidthRequest="200" HorizontalTextAlignment="Center" FontAttributes="Bold" />
         <ActivityIndicator x:Name="activityWaiting" IsRunning="False" Color="Orange" />
-        <Grid  RowSpacing="10" ColumnSpacing="5" Padding="5">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+        <Grid  RowSpacing="10" ColumnSpacing="5" Padding="5"
+               RowDefinitions="Auto, Auto, Auto"
+               ColumnDefinitions="*, *, *">
             
             <Label Text="🌅" FontSize="72" Grid.Column="0" />
             <Label Text="☀️" FontSize="72" Grid.Column="1" />

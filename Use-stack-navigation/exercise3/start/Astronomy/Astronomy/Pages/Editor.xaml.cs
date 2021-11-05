@@ -7,14 +7,17 @@ namespace Astronomy.Pages
     {
         AstronomicalBody editBody = null;
 
-        public AstronomicalBodyPage(AstronomicalBody body)
+        public Editor(AstronomicalBody bodyToEdit)
         {
             InitializeComponent();
 
-            Title = body.Name;
-            lblIcon.Text = body.EmojiIcon;
-            lblName.Text = body.Name;
-            editBody = body;
+            lblIcon.Text = bodyToEdit.EmojiIcon;
+            lblName.Text = bodyToEdit.Name;
+            entMass.Text = bodyToEdit.Mass;
+            entCircumference.Text = bodyToEdit.Circumference;
+            entAge.Text = bodyToEdit.Age;
+
+            editBody = bodyToEdit;
         }
 
         private async void saveClicked(object sender, EventArgs args)

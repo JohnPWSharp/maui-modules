@@ -17,14 +17,6 @@ namespace Astronomy.Pages
             editBody = body;
         }
 
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-            lblMass.Text = displayBody.Mass;
-            lblCircumference.Text = displayBody.Circumference;
-            lblAge.Text = displayBody.Age;
-        }
-
         private async void saveClicked(object sender, EventArgs args)
         {
             // Save changes

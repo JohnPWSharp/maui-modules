@@ -1,11 +1,12 @@
 ﻿using Microsoft.Maui.Controls;
 
-namespace Astronomy.Pages;
-
-public partial class AboutPage : ContentPage
+namespace Astronomy.Pages
 {
-	public AboutPage()
+    public partial class AboutPage : ContentPage
 	{
-		InitializeComponent();
+		public AboutPage()
+		{
+			InitializeComponent();
+		}
 	}
 }

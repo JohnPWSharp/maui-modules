@@ -1,8 +1,9 @@
 ﻿using System.Threading.Tasks;
 
-namespace Astronomy;
-
-public interface ILatLongService
+namespace Astronomy
 {
-	Task<(double Latitude, double Longitude)> GetLatLong();
+    public interface ILatLongService
+    {
+        Task<(double Latitude, double Longitude)> GetLatLong();
+    }
 }

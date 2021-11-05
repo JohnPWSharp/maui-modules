@@ -1,14 +1,17 @@
-﻿using Microsoft.Maui.Controls;
-using MauiApplication = Microsoft.Maui.Controls.Application;
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
+using Application = Microsoft.Maui.Controls.Application;
 
-namespace Astronomy;
-
-public partial class App : MauiApplication
+namespace Astronomy
 {
-	public App()
+	public partial class App : Application
 	{
-		InitializeComponent();
+		public App()
+		{
+			InitializeComponent();
 
-		MainPage = new NavigationPage(new MainPage());
+			MainPage = new NavigationPage(new Astronomy.MainPage());
+		}
 	}
 }

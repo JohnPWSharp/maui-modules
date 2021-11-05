@@ -15,10 +15,20 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" 
-          RowDefinitions="Auto, Auto, Auto, *"
-          ColumnDefinitions="Auto, Auto, Auto, Auto">
-        
+    <Grid RowSpacing="10" ColumnSpacing="5" Padding="5" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+
         <Image Source="starfield.png" Aspect="AspectFill" Grid.RowSpan="4" Grid.ColumnSpan="4" />
 
         <StackLayout Grid.Row="0" Grid.ColumnSpan="4">

@@ -18,7 +18,15 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid Margin="8" RowDefinitions="*, *" ColumnDefinitions="*, *">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         <Button x:Name="btnEarth" Grid.Row="0" Grid.Column="0" Text="🌎" />
         <Button x:Name="btnMoon"  Grid.Row="0" Grid.Column="1" Text="🌕" />
         <Button x:Name="btnSun"   Grid.Row="1" Grid.Column="0" Text="☀️" />

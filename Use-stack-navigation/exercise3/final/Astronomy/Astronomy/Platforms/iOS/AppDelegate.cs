@@ -2,10 +2,11 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace Astronomy;
-
-[Register("AppDelegate")]
-public class AppDelegate : MauiUIApplicationDelegate
+namespace Astronomy
 {
-	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+	[Register("AppDelegate")]
+	public class AppDelegate : MauiUIApplicationDelegate
+	{
+		protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+	}
 }

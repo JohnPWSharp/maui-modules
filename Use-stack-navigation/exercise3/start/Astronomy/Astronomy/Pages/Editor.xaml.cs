@@ -14,7 +14,7 @@ namespace Astronomy.Pages
             Title = body.Name;
             lblIcon.Text = body.EmojiIcon;
             lblName.Text = body.Name;
-            displayBody = body;
+            editBody = body;
         }
 
         protected override async void OnAppearing()

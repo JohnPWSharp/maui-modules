@@ -1,25 +1,26 @@
 ﻿using Microsoft.Maui.Controls;
 using System;
 
-namespace Astronomy.Pages
+namespace Astronomy.Pages;
+
+public partial class Editor : ContentPage
 {
-    public partial class Editor : ContentPage
+	AstronomicalBody editBody = null;
+
+	public Editor(AstronomicalBody bodyToEdit)
 	{
-        AstronomicalBody editBody = null;
+		InitializeComponent();
 
-        public Editor(AstronomicalBody bodyToEdit)
-		{
-			InitializeComponent();
+		lblIcon.Text = bodyToEdit.EmojiIcon;
+		lblName.Text = bodyToEdit.Name;
+		entMass.Text = bodyToEdit.Mass;
+		entCircumference.Text = bodyToEdit.Circumference;
+		entAge.Text = bodyToEdit.Age;
 
-            lblIcon.Text = bodyToEdit.EmojiIcon;
-            lblName.Text = bodyToEdit.Name;
-            entMass.Text = bodyToEdit.Mass;
-            entCircumference.Text = bodyToEdit.Circumference;
-            entAge.Text = bodyToEdit.Age;
+		editBody = bodyToEdit;
+	}
 
-            editBody = bodyToEdit;
-        }
-
+<<<<<<< HEAD
         private async void saveClicked(object sender, EventArgs args)
         {
             // Save changes
@@ -41,4 +42,23 @@ namespace Astronomy.Pages
             }
         }
     }
+=======
+	private async void saveClicked(object sender, EventArgs args)
+	{
+		editBody = new AstronomicalBody(editBody.Name, entMass.Text, entCircumference.Text, entAge.Text, editBody.EmojiIcon);
+		//await Navigation.PopModalAsync();
+		await Navigation.PopAsync();
+	}
+
+	private async void CancelClicked(object sender, EventArgs args)
+	{
+		var discard = await DisplayAlert("Discard changes?", "Are you sure you want to discard changes?", "Yes", "Cancel");
+		if (discard)
+		{
+			// Discard changes
+			//await Navigation.PopModalAsync();
+			await Navigation.PopAsync();
+		}
+	}
+>>>>>>> cc190544a1644613ae4db26985bfe6d790266c36
 }

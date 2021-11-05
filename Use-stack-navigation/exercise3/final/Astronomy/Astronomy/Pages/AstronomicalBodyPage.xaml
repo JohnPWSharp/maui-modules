@@ -21,26 +21,15 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button Text="Go back" HeightRequest="40" WidthRequest="100" Grid.Column="0" Clicked="goBackClicked" />
-            <Button Text="Go home" HeightRequest="40" WidthRequest="100" Grid.Column="1" Clicked="goHomeClicked" />
-            <Button Text="Edit" HeightRequest="40" WidthRequest="100" Grid.Column="2" Clicked="editClicked" />
+            <Button Text="Go back" HeightRequest="40" WidthRequest="100" Grid.Column="0" Clicked="GoBackClicked" />
+            <Button Text="Go home" HeightRequest="40" WidthRequest="100" Grid.Column="1" Clicked="GoHomeClicked" />
+            <Button Text="Edit" HeightRequest="40" WidthRequest="100" Grid.Column="2" Clicked="EditClicked" />
         </Grid>
     </NavigationPage.TitleView>
 
-    <Grid RowSpacing="10" ColumnSpacing="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+    <Grid RowSpacing="10" ColumnSpacing="10" 
+          RowDefinitions="Auto, Auto, Auto, Auto, Auto, *"
+          ColumnDefinitions="*, *">
 
         <Image Aspect="AspectFill" Grid.RowSpan="6" Grid.ColumnSpan="2" Source="starfield.png" />
 

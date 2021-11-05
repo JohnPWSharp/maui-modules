@@ -2,7 +2,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Astronomy.Pages.Editor">
 
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="DarkGray" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <Grid>
+<<<<<<< HEAD
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
@@ -28,17 +38,33 @@
 
             <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Start"/>
             <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" HorizontalOptions="End" />
+=======
+        <Image Aspect="AspectFill" Grid.ColumnSpan="3" Source="starfield.png" />
+        
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" 
+              ColumnDefinitions="Auto, Auto"
+              RowDefinitions="Auto, Auto, Auto, Auto, Auto, *, Auto, *">
+            
+            <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
+            <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
+>>>>>>> cc190544a1644613ae4db26985bfe6d790266c36
 
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="2" HorizontalOptions="End" Text="Mass:" />
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="3" HorizontalOptions="End" Text="Circumference:" />
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Age:" />
 
+<<<<<<< HEAD
             <Entry x:Name="entMass" FontSize="Medium" Grid.Row="2" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
             <Entry x:Name="entCircumference" FontSize="Medium" Grid.Row="3" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
             <Entry x:Name="entAge" FontSize="Medium" Grid.Row="4" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
+=======
+            <Entry x:Name="entMass"  Grid.Row="2" Grid.Column="1" />
+            <Entry x:Name="entCircumference"  Grid.Row="3" Grid.Column="1"/>
+            <Entry x:Name="entAge" Grid.Row="4" Grid.Column="1"/>
+>>>>>>> cc190544a1644613ae4db26985bfe6d790266c36
 
             <Button Text="Save" Grid.Row="6" Grid.Column="0" Clicked="saveClicked" HeightRequest="75" WidthRequest="200"/>
-            <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="cancelClicked" HeightRequest="75" WidthRequest="200"/>
+            <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="CancelClicked" HeightRequest="75" WidthRequest="200"/>
         </Grid>
     </Grid>
 </ContentPage>

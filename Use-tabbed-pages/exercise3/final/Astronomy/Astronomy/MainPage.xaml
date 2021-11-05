@@ -14,6 +14,11 @@
     <TabbedPage.Children>
         <local:MoonPhasePage IconImageSource="moon.png"/>
         <local:SunrisePage Title="Daylight" IconImageSource="sun.png"/>
+        <NavigationPage Title="Bodies" IconImageSource="comet.png">
+            <x:Arguments>
+                <local:AstronomicalBodiesPage/>
+            </x:Arguments>
+        </NavigationPage>
         <local:AboutPage Title="About" IconImageSource="question.png"/>
     </TabbedPage.Children>
 </TabbedPage>

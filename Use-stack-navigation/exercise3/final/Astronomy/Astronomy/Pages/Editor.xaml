@@ -5,13 +5,11 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
-        <Image Aspect="AspectFill" Grid.ColumnSpan="3" Source="starfield.png" />
+        <Image Aspect="AspectFill" Source="starfield.png" />
         
-        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10" Grid.Column="1" Grid.ColumnSpan="2">
+        <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto" />
                 <ColumnDefinition Width="auto" />
@@ -19,7 +17,7 @@
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto" />
-                <RowDefinition Height="auto" />
+                <RowDefinition Height="2*" />
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
@@ -28,16 +26,16 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" />
-            <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Center" />
+            <Label x:Name="lblIcon" FontSize="96" Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <Label x:Name="lblName" FontSize="Medium" FontAttributes="Bold" Grid.Row="1" HorizontalOptions="End" />
 
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="2" HorizontalOptions="End" Text="Mass:" />
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="3" HorizontalOptions="End" Text="Circumference:" />
             <Label FontSize="Medium" FontAttributes="Bold" Grid.Row="4" HorizontalOptions="End" Text="Age:" />
 
-            <Entry x:Name="entMass" FontSize="Medium" Grid.Row="2" Grid.Column="1" HeightRequest="50"/>
-            <Entry x:Name="entCircumference" FontSize="Medium" Grid.Row="3" Grid.Column="1" HeightRequest="50"/>
-            <Entry x:Name="entAge" FontSize="Medium" Grid.Row="4" Grid.Column="1" HeightRequest="50"/>
+            <Entry x:Name="entMass" FontSize="Medium" Grid.Row="2" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
+            <Entry x:Name="entCircumference" FontSize="Medium" Grid.Row="3" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
+            <Entry x:Name="entAge" FontSize="Medium" Grid.Row="4" Grid.Column="1" HeightRequest="50" TextColor="White" VerticalTextAlignment="Start"/>
 
             <Button Text="Save" Grid.Row="6" Grid.Column="0" Clicked="saveClicked" HeightRequest="75" WidthRequest="200"/>
             <Button Text="Cancel" Grid.Row="6" Grid.Column="1" Clicked="cancelClicked" HeightRequest="75" WidthRequest="200"/>

@@ -4,20 +4,25 @@ using System;
 namespace Astronomy.Pages
 {
     public partial class Editor : ContentPage
-	{
+    {
         AstronomicalBody editBody = null;
 
-        public Editor(AstronomicalBody bodyToEdit)
-		{
-			InitializeComponent();
+        public AstronomicalBodyPage(AstronomicalBody body)
+        {
+            InitializeComponent();
 
-            lblIcon.Text = bodyToEdit.EmojiIcon;
-            lblName.Text = bodyToEdit.Name;
-            entMass.Text = bodyToEdit.Mass;
-            entCircumference.Text = bodyToEdit.Circumference;
-            entAge.Text = bodyToEdit.Age;
+            Title = body.Name;
+            lblIcon.Text = body.EmojiIcon;
+            lblName.Text = body.Name;
+            displayBody = body;
+        }
 
-            editBody = bodyToEdit;
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            lblMass.Text = displayBody.Mass;
+            lblCircumference.Text = displayBody.Circumference;
+            lblAge.Text = displayBody.Age;
         }
 
         private async void saveClicked(object sender, EventArgs args)

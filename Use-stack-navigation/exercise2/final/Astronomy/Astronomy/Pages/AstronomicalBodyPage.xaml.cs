@@ -1,6 +1,5 @@
 ﻿using Microsoft.Maui.Controls;
 using System;
-using System.Collections.Generic;
 
 namespace Astronomy.Pages
 {

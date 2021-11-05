@@ -55,10 +55,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="XPlat.Device.Geolocation" Version="1.8.0-preview2" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Update="MauiProgram.cs">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </Compile>

@@ -1,12 +1,11 @@
 ﻿using Microsoft.Maui.Controls;
 using System;
-using System.Collections.Generic;
 
 namespace Astronomy.Pages
 {
     public partial class AstronomicalBodyPage : ContentPage
-	{
-        AstronomicalBody displayBody = null;
+    {
+        AstronomicalBody displayBody;
 
         public AstronomicalBodyPage(AstronomicalBody body)
         {
@@ -19,8 +18,6 @@ namespace Astronomy.Pages
             lblMass.Text = body.Mass;
             lblCircumference.Text = body.Circumference;
             lblAge.Text = body.Age;
-
-            displayBody = body;
         }
 
         private async void goBackClicked(object sender, EventArgs args)

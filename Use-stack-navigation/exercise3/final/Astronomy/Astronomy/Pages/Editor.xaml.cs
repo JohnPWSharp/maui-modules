@@ -26,17 +26,18 @@ namespace Astronomy.Pages
             editBody.Mass = entMass.Text;
             editBody.Circumference = entCircumference.Text;
             editBody.Age = entAge.Text;
-            //await Navigation.PopModalAsync();
-            await Navigation.PopAsync();
+
+            // Return to the previous page
+            await Navigation.PopModalAsync();
         }
 
         private async void cancelClicked(object sender, EventArgs args)
         {
-            if (await DisplayActionSheet("Discard changes?", "Yes", null, "No") == "Yes")
+            // Verify that the user wants to cancel, and if so, return to the previous page without saving the changes
+            if (await DisplayAlert("Discard changes?", "Are you sure?", "Yes", "No"))
             {
                 // Discard changes
-                //await Navigation.PopModalAsync();
-                await Navigation.PopAsync();
+                await Navigation.PopModalAsync();
             }
         }
     }

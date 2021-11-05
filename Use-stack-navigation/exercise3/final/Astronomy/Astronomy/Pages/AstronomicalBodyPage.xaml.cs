@@ -1,26 +1,28 @@
 ﻿using Microsoft.Maui.Controls;
 using System;
-using System.Collections.Generic;
 
 namespace Astronomy.Pages
 {
     public partial class AstronomicalBodyPage : ContentPage
 	{
-        AstronomicalBody displayBody = null;
+        AstronomicalBody displayBody;
 
         public AstronomicalBodyPage(AstronomicalBody body)
         {
             InitializeComponent();
 
             Title = body.Name;
-
             lblIcon.Text = body.EmojiIcon;
             lblName.Text = body.Name;
-            lblMass.Text = body.Mass;
-            lblCircumference.Text = body.Circumference;
-            lblAge.Text = body.Age;
-
             displayBody = body;
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            lblMass.Text = displayBody.Mass;
+            lblCircumference.Text = displayBody.Circumference;
+            lblAge.Text = displayBody.Age;
         }
 
         private async void goBackClicked(object sender, EventArgs args)
@@ -35,9 +37,8 @@ namespace Astronomy.Pages
 
         private async void editClicked(object sender, EventArgs args)
         {
-            NavigationPage editPage = new NavigationPage(new Editor(displayBody));
-            //await Navigation.PushModalAsync(editPage);
-            await Navigation.PushAsync(editPage);
+            var editPage = new Editor(displayBody);
+            await Navigation.PushModalAsync(editPage);
         }
     }
 }

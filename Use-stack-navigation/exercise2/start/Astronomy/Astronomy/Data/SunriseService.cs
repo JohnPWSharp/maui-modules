@@ -8,7 +8,6 @@ namespace Astronomy
     public class SunriseService
     {
         const string SunriseSunsetServiceUrl = "https://api.sunrise-sunset.org";
-        bool awaitConfig = true;
 
         public async Task<(DateTime Sunrise, DateTime Sunset)> GetSunriseSunsetTimes(double latitude, double longitude)
         {
@@ -16,12 +15,7 @@ namespace Astronomy
 
             var client = new HttpClient();
             client.DefaultRequestHeaders.Add("Accept", "application/json");
-
-#if WINDOWS
-            awaitConfig = false;
-#endif
-
-            var json = await client.GetStringAsync(query).ConfigureAwait(awaitConfig);
+            var json = await client.GetStringAsync(query);
 
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var data = JsonSerializer.Deserialize<SunriseSunsetData>(json, options);

@@ -55,15 +55,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="XPlat.Device.Geolocation" Version="1.8.0-preview2" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Update="MauiProgram.cs">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-	  </Compile>
-	  <Compile Update="Pages\Editor.xaml.cs">
-	    <DependentUpon>Editor.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Pages\SunrisePage.xaml.cs">
 	    <DependentUpon>SunrisePage.xaml</DependentUpon>
@@ -84,7 +77,6 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="Pages\Editor.xaml">
-	    <SubType>Designer</SubType>
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SunrisePage.xaml">

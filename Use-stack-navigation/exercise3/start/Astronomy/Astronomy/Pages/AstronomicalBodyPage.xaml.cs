@@ -12,12 +12,17 @@ namespace Astronomy.Pages
             InitializeComponent();
 
             Title = body.Name;
-
             lblIcon.Text = body.EmojiIcon;
             lblName.Text = body.Name;
-            lblMass.Text = body.Mass;
-            lblCircumference.Text = body.Circumference;
-            lblAge.Text = body.Age;
+            displayBody = body;
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            lblMass.Text = displayBody.Mass;
+            lblCircumference.Text = displayBody.Circumference;
+            lblAge.Text = displayBody.Age;
         }
 
         private async void goBackClicked(object sender, EventArgs args)

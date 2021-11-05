@@ -4,12 +4,12 @@ using System;
 namespace Astronomy.Pages
 {
     public partial class Editor : ContentPage
-	{
+    {
         AstronomicalBody editBody = null;
 
         public Editor(AstronomicalBody bodyToEdit)
-		{
-			InitializeComponent();
+        {
+            InitializeComponent();
 
             lblIcon.Text = bodyToEdit.EmojiIcon;
             lblName.Text = bodyToEdit.Name;

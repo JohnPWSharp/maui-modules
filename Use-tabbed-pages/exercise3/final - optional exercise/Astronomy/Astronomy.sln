@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy", "Astronomy\Astronomy.csproj", "{DEF276F4-7D65-4D23-9250-221A74719A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronomy", "Astronomy\Astronomy.csproj", "{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DEF276F4-7D65-4D23-9250-221A74719A25}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02C5127-CAA4-41C6-83C9-EFDBD4F91417}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

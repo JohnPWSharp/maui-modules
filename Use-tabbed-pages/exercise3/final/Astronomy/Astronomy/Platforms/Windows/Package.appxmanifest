@@ -7,7 +7,7 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="84529D19-397F-49B4-B6DD-0524437A537C"
+    Name="9CD0905E-587D-48B0-9BC7-D64724019F04"
     Publisher="CN=User Name"
     Version="1.0.0.0" />
 
@@ -53,7 +53,7 @@
 
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
-	<DeviceCapability Name="location"/>
+    <DeviceCapability Name="location"/>
   </Capabilities>
 
 </Package>

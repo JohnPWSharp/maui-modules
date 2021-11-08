@@ -59,6 +59,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.0.29-preview3" />
+	  <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0-preview3" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="MauiProgram.cs">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </Compile>
